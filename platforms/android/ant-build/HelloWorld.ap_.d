@@ -1,207 +1,205 @@
-C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Proyecto Radiopatio\Proyecto Radiopatio\RadioPatio\platforms\android\ant-build\HelloWorld.ap_ \
- : C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Proyecto Radiopatio\Proyecto Radiopatio\RadioPatio\platforms\android\res\drawable\icon.png \
-C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Proyecto Radiopatio\Proyecto Radiopatio\RadioPatio\platforms\android\res\drawable-hdpi\icon.png \
-C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Proyecto Radiopatio\Proyecto Radiopatio\RadioPatio\platforms\android\res\drawable-hdpi\icon_.png \
-C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Proyecto Radiopatio\Proyecto Radiopatio\RadioPatio\platforms\android\res\drawable-land-hdpi\screen.png \
-C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Proyecto Radiopatio\Proyecto Radiopatio\RadioPatio\platforms\android\res\drawable-land-ldpi\screen.png \
-C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Proyecto Radiopatio\Proyecto Radiopatio\RadioPatio\platforms\android\res\drawable-land-mdpi\screen.png \
-C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Proyecto Radiopatio\Proyecto Radiopatio\RadioPatio\platforms\android\res\drawable-land-xhdpi\screen.png \
-C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Proyecto Radiopatio\Proyecto Radiopatio\RadioPatio\platforms\android\res\drawable-port-hdpi\screen.png \
-C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Proyecto Radiopatio\Proyecto Radiopatio\RadioPatio\platforms\android\res\drawable-port-ldpi\screen.png \
-C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Proyecto Radiopatio\Proyecto Radiopatio\RadioPatio\platforms\android\res\drawable-port-mdpi\screen.png \
-C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Proyecto Radiopatio\Proyecto Radiopatio\RadioPatio\platforms\android\res\drawable-port-xhdpi\screen.png \
-C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Proyecto Radiopatio\Proyecto Radiopatio\RadioPatio\platforms\android\res\values\strings.xml \
-C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Proyecto Radiopatio\Proyecto Radiopatio\RadioPatio\platforms\android\res\xml\config.xml \
-C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Proyecto Radiopatio\Proyecto Radiopatio\RadioPatio\platforms\android\ant-build\res\drawable\icon.png \
-C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Proyecto Radiopatio\Proyecto Radiopatio\RadioPatio\platforms\android\ant-build\res\drawable-hdpi\icon.png \
-C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Proyecto Radiopatio\Proyecto Radiopatio\RadioPatio\platforms\android\ant-build\res\drawable-hdpi\icon_.png \
-C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Proyecto Radiopatio\Proyecto Radiopatio\RadioPatio\platforms\android\ant-build\res\drawable-land-hdpi\screen.png \
-C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Proyecto Radiopatio\Proyecto Radiopatio\RadioPatio\platforms\android\ant-build\res\drawable-land-ldpi\screen.png \
-C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Proyecto Radiopatio\Proyecto Radiopatio\RadioPatio\platforms\android\ant-build\res\drawable-land-mdpi\screen.png \
-C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Proyecto Radiopatio\Proyecto Radiopatio\RadioPatio\platforms\android\ant-build\res\drawable-land-xhdpi\screen.png \
-C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Proyecto Radiopatio\Proyecto Radiopatio\RadioPatio\platforms\android\ant-build\res\drawable-port-hdpi\screen.png \
-C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Proyecto Radiopatio\Proyecto Radiopatio\RadioPatio\platforms\android\ant-build\res\drawable-port-ldpi\screen.png \
-C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Proyecto Radiopatio\Proyecto Radiopatio\RadioPatio\platforms\android\ant-build\res\drawable-port-mdpi\screen.png \
-C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Proyecto Radiopatio\Proyecto Radiopatio\RadioPatio\platforms\android\ant-build\res\drawable-port-xhdpi\screen.png \
-C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Proyecto Radiopatio\Proyecto Radiopatio\RadioPatio\platforms\android\assets\www \
-C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Proyecto Radiopatio\Proyecto Radiopatio\RadioPatio\platforms\android\assets\_where-is-www.txt \
-C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Proyecto Radiopatio\Proyecto Radiopatio\RadioPatio\platforms\android\assets\www\cordova.js \
-C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Proyecto Radiopatio\Proyecto Radiopatio\RadioPatio\platforms\android\assets\www\cordova_plugins.js \
-C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Proyecto Radiopatio\Proyecto Radiopatio\RadioPatio\platforms\android\assets\www\css \
-C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Proyecto Radiopatio\Proyecto Radiopatio\RadioPatio\platforms\android\assets\www\foto.html \
-C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Proyecto Radiopatio\Proyecto Radiopatio\RadioPatio\platforms\android\assets\www\icon.png \
-C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Proyecto Radiopatio\Proyecto Radiopatio\RadioPatio\platforms\android\assets\www\icon_.png \
-C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Proyecto Radiopatio\Proyecto Radiopatio\RadioPatio\platforms\android\assets\www\img \
-C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Proyecto Radiopatio\Proyecto Radiopatio\RadioPatio\platforms\android\assets\www\index.html \
-C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Proyecto Radiopatio\Proyecto Radiopatio\RadioPatio\platforms\android\assets\www\js \
-C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Proyecto Radiopatio\Proyecto Radiopatio\RadioPatio\platforms\android\assets\www\phonegap.js \
-C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Proyecto Radiopatio\Proyecto Radiopatio\RadioPatio\platforms\android\assets\www\res \
-C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Proyecto Radiopatio\Proyecto Radiopatio\RadioPatio\platforms\android\assets\www\spec \
-C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Proyecto Radiopatio\Proyecto Radiopatio\RadioPatio\platforms\android\assets\www\spec.html \
-C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Proyecto Radiopatio\Proyecto Radiopatio\RadioPatio\platforms\android\assets\www\css\examples.css \
-C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Proyecto Radiopatio\Proyecto Radiopatio\RadioPatio\platforms\android\assets\www\css\index.css \
-C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Proyecto Radiopatio\Proyecto Radiopatio\RadioPatio\platforms\android\assets\www\img\logo.png \
-C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Proyecto Radiopatio\Proyecto Radiopatio\RadioPatio\platforms\android\assets\www\js\components \
-C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Proyecto Radiopatio\Proyecto Radiopatio\RadioPatio\platforms\android\assets\www\js\index.js \
-C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Proyecto Radiopatio\Proyecto Radiopatio\RadioPatio\platforms\android\assets\www\js\oms.min.js \
-C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Proyecto Radiopatio\Proyecto Radiopatio\RadioPatio\platforms\android\assets\www\js\rollups \
-C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Proyecto Radiopatio\Proyecto Radiopatio\RadioPatio\platforms\android\assets\www\js\components\aes-min.js \
-C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Proyecto Radiopatio\Proyecto Radiopatio\RadioPatio\platforms\android\assets\www\js\components\aes.js \
-C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Proyecto Radiopatio\Proyecto Radiopatio\RadioPatio\platforms\android\assets\www\js\components\cipher-core-min.js \
-C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Proyecto Radiopatio\Proyecto Radiopatio\RadioPatio\platforms\android\assets\www\js\components\cipher-core.js \
-C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Proyecto Radiopatio\Proyecto Radiopatio\RadioPatio\platforms\android\assets\www\js\components\core-min.js \
-C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Proyecto Radiopatio\Proyecto Radiopatio\RadioPatio\platforms\android\assets\www\js\components\core.js \
-C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Proyecto Radiopatio\Proyecto Radiopatio\RadioPatio\platforms\android\assets\www\js\components\enc-base64-min.js \
-C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Proyecto Radiopatio\Proyecto Radiopatio\RadioPatio\platforms\android\assets\www\js\components\enc-base64.js \
-C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Proyecto Radiopatio\Proyecto Radiopatio\RadioPatio\platforms\android\assets\www\js\components\enc-utf16-min.js \
-C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Proyecto Radiopatio\Proyecto Radiopatio\RadioPatio\platforms\android\assets\www\js\components\enc-utf16.js \
-C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Proyecto Radiopatio\Proyecto Radiopatio\RadioPatio\platforms\android\assets\www\js\components\evpkdf-min.js \
-C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Proyecto Radiopatio\Proyecto Radiopatio\RadioPatio\platforms\android\assets\www\js\components\evpkdf.js \
-C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Proyecto Radiopatio\Proyecto Radiopatio\RadioPatio\platforms\android\assets\www\js\components\format-hex-min.js \
-C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Proyecto Radiopatio\Proyecto Radiopatio\RadioPatio\platforms\android\assets\www\js\components\format-hex.js \
-C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Proyecto Radiopatio\Proyecto Radiopatio\RadioPatio\platforms\android\assets\www\js\components\hmac-min.js \
-C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Proyecto Radiopatio\Proyecto Radiopatio\RadioPatio\platforms\android\assets\www\js\components\hmac.js \
-C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Proyecto Radiopatio\Proyecto Radiopatio\RadioPatio\platforms\android\assets\www\js\components\lib-typedarrays-min.js \
-C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Proyecto Radiopatio\Proyecto Radiopatio\RadioPatio\platforms\android\assets\www\js\components\lib-typedarrays.js \
-C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Proyecto Radiopatio\Proyecto Radiopatio\RadioPatio\platforms\android\assets\www\js\components\md5-min.js \
-C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Proyecto Radiopatio\Proyecto Radiopatio\RadioPatio\platforms\android\assets\www\js\components\md5.js \
-C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Proyecto Radiopatio\Proyecto Radiopatio\RadioPatio\platforms\android\assets\www\js\components\mode-cfb-min.js \
-C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Proyecto Radiopatio\Proyecto Radiopatio\RadioPatio\platforms\android\assets\www\js\components\mode-cfb.js \
-C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Proyecto Radiopatio\Proyecto Radiopatio\RadioPatio\platforms\android\assets\www\js\components\mode-ctr-gladman-min.js \
-C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Proyecto Radiopatio\Proyecto Radiopatio\RadioPatio\platforms\android\assets\www\js\components\mode-ctr-gladman.js \
-C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Proyecto Radiopatio\Proyecto Radiopatio\RadioPatio\platforms\android\assets\www\js\components\mode-ctr-min.js \
-C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Proyecto Radiopatio\Proyecto Radiopatio\RadioPatio\platforms\android\assets\www\js\components\mode-ctr.js \
-C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Proyecto Radiopatio\Proyecto Radiopatio\RadioPatio\platforms\android\assets\www\js\components\mode-ecb-min.js \
-C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Proyecto Radiopatio\Proyecto Radiopatio\RadioPatio\platforms\android\assets\www\js\components\mode-ecb.js \
-C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Proyecto Radiopatio\Proyecto Radiopatio\RadioPatio\platforms\android\assets\www\js\components\mode-ofb-min.js \
-C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Proyecto Radiopatio\Proyecto Radiopatio\RadioPatio\platforms\android\assets\www\js\components\mode-ofb.js \
-C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Proyecto Radiopatio\Proyecto Radiopatio\RadioPatio\platforms\android\assets\www\js\components\pad-ansix923-min.js \
-C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Proyecto Radiopatio\Proyecto Radiopatio\RadioPatio\platforms\android\assets\www\js\components\pad-ansix923.js \
-C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Proyecto Radiopatio\Proyecto Radiopatio\RadioPatio\platforms\android\assets\www\js\components\pad-iso10126-min.js \
-C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Proyecto Radiopatio\Proyecto Radiopatio\RadioPatio\platforms\android\assets\www\js\components\pad-iso10126.js \
-C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Proyecto Radiopatio\Proyecto Radiopatio\RadioPatio\platforms\android\assets\www\js\components\pad-iso97971-min.js \
-C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Proyecto Radiopatio\Proyecto Radiopatio\RadioPatio\platforms\android\assets\www\js\components\pad-iso97971.js \
-C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Proyecto Radiopatio\Proyecto Radiopatio\RadioPatio\platforms\android\assets\www\js\components\pad-nopadding-min.js \
-C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Proyecto Radiopatio\Proyecto Radiopatio\RadioPatio\platforms\android\assets\www\js\components\pad-nopadding.js \
-C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Proyecto Radiopatio\Proyecto Radiopatio\RadioPatio\platforms\android\assets\www\js\components\pad-zeropadding-min.js \
-C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Proyecto Radiopatio\Proyecto Radiopatio\RadioPatio\platforms\android\assets\www\js\components\pad-zeropadding.js \
-C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Proyecto Radiopatio\Proyecto Radiopatio\RadioPatio\platforms\android\assets\www\js\components\pbkdf2-min.js \
-C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Proyecto Radiopatio\Proyecto Radiopatio\RadioPatio\platforms\android\assets\www\js\components\pbkdf2.js \
-C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Proyecto Radiopatio\Proyecto Radiopatio\RadioPatio\platforms\android\assets\www\js\components\rabbit-legacy-min.js \
-C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Proyecto Radiopatio\Proyecto Radiopatio\RadioPatio\platforms\android\assets\www\js\components\rabbit-legacy.js \
-C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Proyecto Radiopatio\Proyecto Radiopatio\RadioPatio\platforms\android\assets\www\js\components\rabbit-min.js \
-C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Proyecto Radiopatio\Proyecto Radiopatio\RadioPatio\platforms\android\assets\www\js\components\rabbit.js \
-C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Proyecto Radiopatio\Proyecto Radiopatio\RadioPatio\platforms\android\assets\www\js\components\rc4-min.js \
-C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Proyecto Radiopatio\Proyecto Radiopatio\RadioPatio\platforms\android\assets\www\js\components\rc4.js \
-C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Proyecto Radiopatio\Proyecto Radiopatio\RadioPatio\platforms\android\assets\www\js\components\ripemd160-min.js \
-C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Proyecto Radiopatio\Proyecto Radiopatio\RadioPatio\platforms\android\assets\www\js\components\ripemd160.js \
-C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Proyecto Radiopatio\Proyecto Radiopatio\RadioPatio\platforms\android\assets\www\js\components\sha1-min.js \
-C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Proyecto Radiopatio\Proyecto Radiopatio\RadioPatio\platforms\android\assets\www\js\components\sha1.js \
-C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Proyecto Radiopatio\Proyecto Radiopatio\RadioPatio\platforms\android\assets\www\js\components\sha224-min.js \
-C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Proyecto Radiopatio\Proyecto Radiopatio\RadioPatio\platforms\android\assets\www\js\components\sha224.js \
-C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Proyecto Radiopatio\Proyecto Radiopatio\RadioPatio\platforms\android\assets\www\js\components\sha256-min.js \
-C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Proyecto Radiopatio\Proyecto Radiopatio\RadioPatio\platforms\android\assets\www\js\components\sha256.js \
-C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Proyecto Radiopatio\Proyecto Radiopatio\RadioPatio\platforms\android\assets\www\js\components\sha3-min.js \
-C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Proyecto Radiopatio\Proyecto Radiopatio\RadioPatio\platforms\android\assets\www\js\components\sha3.js \
-C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Proyecto Radiopatio\Proyecto Radiopatio\RadioPatio\platforms\android\assets\www\js\components\sha384-min.js \
-C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Proyecto Radiopatio\Proyecto Radiopatio\RadioPatio\platforms\android\assets\www\js\components\sha384.js \
-C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Proyecto Radiopatio\Proyecto Radiopatio\RadioPatio\platforms\android\assets\www\js\components\sha512-min.js \
-C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Proyecto Radiopatio\Proyecto Radiopatio\RadioPatio\platforms\android\assets\www\js\components\sha512.js \
-C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Proyecto Radiopatio\Proyecto Radiopatio\RadioPatio\platforms\android\assets\www\js\components\tripledes-min.js \
-C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Proyecto Radiopatio\Proyecto Radiopatio\RadioPatio\platforms\android\assets\www\js\components\tripledes.js \
-C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Proyecto Radiopatio\Proyecto Radiopatio\RadioPatio\platforms\android\assets\www\js\components\x64-core-min.js \
-C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Proyecto Radiopatio\Proyecto Radiopatio\RadioPatio\platforms\android\assets\www\js\components\x64-core.js \
-C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Proyecto Radiopatio\Proyecto Radiopatio\RadioPatio\platforms\android\assets\www\js\rollups\aes.js \
-C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Proyecto Radiopatio\Proyecto Radiopatio\RadioPatio\platforms\android\assets\www\js\rollups\hmac-md5.js \
-C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Proyecto Radiopatio\Proyecto Radiopatio\RadioPatio\platforms\android\assets\www\js\rollups\hmac-ripemd160.js \
-C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Proyecto Radiopatio\Proyecto Radiopatio\RadioPatio\platforms\android\assets\www\js\rollups\hmac-sha1.js \
-C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Proyecto Radiopatio\Proyecto Radiopatio\RadioPatio\platforms\android\assets\www\js\rollups\hmac-sha224.js \
-C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Proyecto Radiopatio\Proyecto Radiopatio\RadioPatio\platforms\android\assets\www\js\rollups\hmac-sha256.js \
-C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Proyecto Radiopatio\Proyecto Radiopatio\RadioPatio\platforms\android\assets\www\js\rollups\hmac-sha3.js \
-C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Proyecto Radiopatio\Proyecto Radiopatio\RadioPatio\platforms\android\assets\www\js\rollups\hmac-sha384.js \
-C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Proyecto Radiopatio\Proyecto Radiopatio\RadioPatio\platforms\android\assets\www\js\rollups\hmac-sha512.js \
-C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Proyecto Radiopatio\Proyecto Radiopatio\RadioPatio\platforms\android\assets\www\js\rollups\md5.js \
-C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Proyecto Radiopatio\Proyecto Radiopatio\RadioPatio\platforms\android\assets\www\js\rollups\pbkdf2.js \
-C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Proyecto Radiopatio\Proyecto Radiopatio\RadioPatio\platforms\android\assets\www\js\rollups\rabbit-legacy.js \
-C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Proyecto Radiopatio\Proyecto Radiopatio\RadioPatio\platforms\android\assets\www\js\rollups\rabbit.js \
-C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Proyecto Radiopatio\Proyecto Radiopatio\RadioPatio\platforms\android\assets\www\js\rollups\rc4.js \
-C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Proyecto Radiopatio\Proyecto Radiopatio\RadioPatio\platforms\android\assets\www\js\rollups\ripemd160.js \
-C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Proyecto Radiopatio\Proyecto Radiopatio\RadioPatio\platforms\android\assets\www\js\rollups\sha1.js \
-C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Proyecto Radiopatio\Proyecto Radiopatio\RadioPatio\platforms\android\assets\www\js\rollups\sha224.js \
-C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Proyecto Radiopatio\Proyecto Radiopatio\RadioPatio\platforms\android\assets\www\js\rollups\sha256.js \
-C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Proyecto Radiopatio\Proyecto Radiopatio\RadioPatio\platforms\android\assets\www\js\rollups\sha3.js \
-C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Proyecto Radiopatio\Proyecto Radiopatio\RadioPatio\platforms\android\assets\www\js\rollups\sha384.js \
-C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Proyecto Radiopatio\Proyecto Radiopatio\RadioPatio\platforms\android\assets\www\js\rollups\sha512.js \
-C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Proyecto Radiopatio\Proyecto Radiopatio\RadioPatio\platforms\android\assets\www\js\rollups\tripledes.js \
-C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Proyecto Radiopatio\Proyecto Radiopatio\RadioPatio\platforms\android\assets\www\res\icon \
-C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Proyecto Radiopatio\Proyecto Radiopatio\RadioPatio\platforms\android\assets\www\res\screen \
-C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Proyecto Radiopatio\Proyecto Radiopatio\RadioPatio\platforms\android\assets\www\res\icon\android \
-C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Proyecto Radiopatio\Proyecto Radiopatio\RadioPatio\platforms\android\assets\www\res\icon\bada \
-C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Proyecto Radiopatio\Proyecto Radiopatio\RadioPatio\platforms\android\assets\www\res\icon\bada-wac \
-C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Proyecto Radiopatio\Proyecto Radiopatio\RadioPatio\platforms\android\assets\www\res\icon\blackberry \
-C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Proyecto Radiopatio\Proyecto Radiopatio\RadioPatio\platforms\android\assets\www\res\icon\ios \
-C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Proyecto Radiopatio\Proyecto Radiopatio\RadioPatio\platforms\android\assets\www\res\icon\tizen \
-C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Proyecto Radiopatio\Proyecto Radiopatio\RadioPatio\platforms\android\assets\www\res\icon\webos \
-C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Proyecto Radiopatio\Proyecto Radiopatio\RadioPatio\platforms\android\assets\www\res\icon\windows-phone \
-C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Proyecto Radiopatio\Proyecto Radiopatio\RadioPatio\platforms\android\assets\www\res\icon\android\icon-144-xxhdpi.png \
-C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Proyecto Radiopatio\Proyecto Radiopatio\RadioPatio\platforms\android\assets\www\res\icon\android\icon-192-xxxhdpi.png \
-C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Proyecto Radiopatio\Proyecto Radiopatio\RadioPatio\platforms\android\assets\www\res\icon\android\icon-36-ldpi.png \
-C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Proyecto Radiopatio\Proyecto Radiopatio\RadioPatio\platforms\android\assets\www\res\icon\android\icon-48-mdpi.png \
-C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Proyecto Radiopatio\Proyecto Radiopatio\RadioPatio\platforms\android\assets\www\res\icon\android\icon-72-hdpi.png \
-C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Proyecto Radiopatio\Proyecto Radiopatio\RadioPatio\platforms\android\assets\www\res\icon\android\icon-96-xhdpi.png \
-C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Proyecto Radiopatio\Proyecto Radiopatio\RadioPatio\platforms\android\assets\www\res\icon\bada\icon-128.png \
-C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Proyecto Radiopatio\Proyecto Radiopatio\RadioPatio\platforms\android\assets\www\res\icon\bada-wac\icon-48-type5.png \
-C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Proyecto Radiopatio\Proyecto Radiopatio\RadioPatio\platforms\android\assets\www\res\icon\bada-wac\icon-50-type3.png \
-C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Proyecto Radiopatio\Proyecto Radiopatio\RadioPatio\platforms\android\assets\www\res\icon\bada-wac\icon-80-type4.png \
-C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Proyecto Radiopatio\Proyecto Radiopatio\RadioPatio\platforms\android\assets\www\res\icon\blackberry\icon-80.png \
-C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Proyecto Radiopatio\Proyecto Radiopatio\RadioPatio\platforms\android\assets\www\res\icon\ios\icon-57-2x.png \
-C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Proyecto Radiopatio\Proyecto Radiopatio\RadioPatio\platforms\android\assets\www\res\icon\ios\icon-57.png \
-C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Proyecto Radiopatio\Proyecto Radiopatio\RadioPatio\platforms\android\assets\www\res\icon\ios\icon-72-2x.png \
-C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Proyecto Radiopatio\Proyecto Radiopatio\RadioPatio\platforms\android\assets\www\res\icon\ios\icon-72.png \
-C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Proyecto Radiopatio\Proyecto Radiopatio\RadioPatio\platforms\android\assets\www\res\icon\tizen\icon-128.png \
-C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Proyecto Radiopatio\Proyecto Radiopatio\RadioPatio\platforms\android\assets\www\res\icon\webos\icon-64.png \
-C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Proyecto Radiopatio\Proyecto Radiopatio\RadioPatio\platforms\android\assets\www\res\icon\windows-phone\icon-173-tile.png \
-C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Proyecto Radiopatio\Proyecto Radiopatio\RadioPatio\platforms\android\assets\www\res\icon\windows-phone\icon-48.png \
-C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Proyecto Radiopatio\Proyecto Radiopatio\RadioPatio\platforms\android\assets\www\res\icon\windows-phone\icon-62-tile.png \
-C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Proyecto Radiopatio\Proyecto Radiopatio\RadioPatio\platforms\android\assets\www\res\screen\android \
-C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Proyecto Radiopatio\Proyecto Radiopatio\RadioPatio\platforms\android\assets\www\res\screen\bada \
-C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Proyecto Radiopatio\Proyecto Radiopatio\RadioPatio\platforms\android\assets\www\res\screen\bada-wac \
-C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Proyecto Radiopatio\Proyecto Radiopatio\RadioPatio\platforms\android\assets\www\res\screen\blackberry \
-C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Proyecto Radiopatio\Proyecto Radiopatio\RadioPatio\platforms\android\assets\www\res\screen\ios \
-C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Proyecto Radiopatio\Proyecto Radiopatio\RadioPatio\platforms\android\assets\www\res\screen\tizen \
-C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Proyecto Radiopatio\Proyecto Radiopatio\RadioPatio\platforms\android\assets\www\res\screen\webos \
-C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Proyecto Radiopatio\Proyecto Radiopatio\RadioPatio\platforms\android\assets\www\res\screen\windows-phone \
-C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Proyecto Radiopatio\Proyecto Radiopatio\RadioPatio\platforms\android\assets\www\res\screen\android\screen-hdpi-landscape.png \
-C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Proyecto Radiopatio\Proyecto Radiopatio\RadioPatio\platforms\android\assets\www\res\screen\android\screen-hdpi-portrait.png \
-C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Proyecto Radiopatio\Proyecto Radiopatio\RadioPatio\platforms\android\assets\www\res\screen\android\screen-ldpi-landscape.png \
-C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Proyecto Radiopatio\Proyecto Radiopatio\RadioPatio\platforms\android\assets\www\res\screen\android\screen-ldpi-portrait.png \
-C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Proyecto Radiopatio\Proyecto Radiopatio\RadioPatio\platforms\android\assets\www\res\screen\android\screen-mdpi-landscape.png \
-C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Proyecto Radiopatio\Proyecto Radiopatio\RadioPatio\platforms\android\assets\www\res\screen\android\screen-mdpi-portrait.png \
-C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Proyecto Radiopatio\Proyecto Radiopatio\RadioPatio\platforms\android\assets\www\res\screen\android\screen-xhdpi-landscape.png \
-C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Proyecto Radiopatio\Proyecto Radiopatio\RadioPatio\platforms\android\assets\www\res\screen\android\screen-xhdpi-portrait.png \
-C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Proyecto Radiopatio\Proyecto Radiopatio\RadioPatio\platforms\android\assets\www\res\screen\bada\screen-portrait.png \
-C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Proyecto Radiopatio\Proyecto Radiopatio\RadioPatio\platforms\android\assets\www\res\screen\bada-wac\screen-type3.png \
-C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Proyecto Radiopatio\Proyecto Radiopatio\RadioPatio\platforms\android\assets\www\res\screen\bada-wac\screen-type4.png \
-C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Proyecto Radiopatio\Proyecto Radiopatio\RadioPatio\platforms\android\assets\www\res\screen\bada-wac\screen-type5.png \
-C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Proyecto Radiopatio\Proyecto Radiopatio\RadioPatio\platforms\android\assets\www\res\screen\blackberry\screen-225.png \
-C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Proyecto Radiopatio\Proyecto Radiopatio\RadioPatio\platforms\android\assets\www\res\screen\ios\screen-ipad-landscape-2x.png \
-C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Proyecto Radiopatio\Proyecto Radiopatio\RadioPatio\platforms\android\assets\www\res\screen\ios\screen-ipad-landscape.png \
-C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Proyecto Radiopatio\Proyecto Radiopatio\RadioPatio\platforms\android\assets\www\res\screen\ios\screen-ipad-portrait-2x.png \
-C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Proyecto Radiopatio\Proyecto Radiopatio\RadioPatio\platforms\android\assets\www\res\screen\ios\screen-ipad-portrait.png \
-C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Proyecto Radiopatio\Proyecto Radiopatio\RadioPatio\platforms\android\assets\www\res\screen\ios\screen-iphone-landscape-2x.png \
-C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Proyecto Radiopatio\Proyecto Radiopatio\RadioPatio\platforms\android\assets\www\res\screen\ios\screen-iphone-landscape.png \
-C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Proyecto Radiopatio\Proyecto Radiopatio\RadioPatio\platforms\android\assets\www\res\screen\ios\screen-iphone-portrait-2x.png \
-C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Proyecto Radiopatio\Proyecto Radiopatio\RadioPatio\platforms\android\assets\www\res\screen\ios\screen-iphone-portrait-568h-2x.png \
-C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Proyecto Radiopatio\Proyecto Radiopatio\RadioPatio\platforms\android\assets\www\res\screen\ios\screen-iphone-portrait.png \
-C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Proyecto Radiopatio\Proyecto Radiopatio\RadioPatio\platforms\android\assets\www\res\screen\tizen\README.md \
-C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Proyecto Radiopatio\Proyecto Radiopatio\RadioPatio\platforms\android\assets\www\res\screen\webos\screen-64.png \
-C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Proyecto Radiopatio\Proyecto Radiopatio\RadioPatio\platforms\android\assets\www\res\screen\windows-phone\screen-portrait.jpg \
-C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Proyecto Radiopatio\Proyecto Radiopatio\RadioPatio\platforms\android\assets\www\spec\helper.js \
-C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Proyecto Radiopatio\Proyecto Radiopatio\RadioPatio\platforms\android\assets\www\spec\index.js \
-C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Proyecto Radiopatio\Proyecto Radiopatio\RadioPatio\platforms\android\assets\www\spec\lib \
-C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Proyecto Radiopatio\Proyecto Radiopatio\RadioPatio\platforms\android\assets\www\spec\lib\jasmine-1.2.0 \
-C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Proyecto Radiopatio\Proyecto Radiopatio\RadioPatio\platforms\android\assets\www\spec\lib\jasmine-1.2.0\jasmine-html.js \
-C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Proyecto Radiopatio\Proyecto Radiopatio\RadioPatio\platforms\android\assets\www\spec\lib\jasmine-1.2.0\jasmine.css \
-C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Proyecto Radiopatio\Proyecto Radiopatio\RadioPatio\platforms\android\assets\www\spec\lib\jasmine-1.2.0\jasmine.js \
-C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Proyecto Radiopatio\Proyecto Radiopatio\RadioPatio\platforms\android\assets\www\spec\lib\jasmine-1.2.0\MIT.LICENSE \
-C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Proyecto Radiopatio\Proyecto Radiopatio\RadioPatio\platforms\android\ant-build\AndroidManifest.xml \
+C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\ant-build\HelloWorld.ap_ \
+ : C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\res\drawable\icon.png \
+C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\res\drawable-hdpi\icon.png \
+C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\res\drawable-hdpi\icon_.png \
+C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\res\drawable-land-hdpi\screen.png \
+C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\res\drawable-land-ldpi\screen.png \
+C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\res\drawable-land-mdpi\screen.png \
+C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\res\drawable-land-xhdpi\screen.png \
+C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\res\drawable-port-hdpi\screen.png \
+C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\res\drawable-port-ldpi\screen.png \
+C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\res\drawable-port-mdpi\screen.png \
+C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\res\drawable-port-xhdpi\screen.png \
+C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\res\values\strings.xml \
+C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\res\xml\config.xml \
+C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\ant-build\res\drawable\icon.png \
+C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\ant-build\res\drawable-hdpi\icon.png \
+C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\ant-build\res\drawable-hdpi\icon_.png \
+C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\ant-build\res\drawable-land-hdpi\screen.png \
+C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\ant-build\res\drawable-land-ldpi\screen.png \
+C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\ant-build\res\drawable-land-mdpi\screen.png \
+C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\ant-build\res\drawable-land-xhdpi\screen.png \
+C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\ant-build\res\drawable-port-hdpi\screen.png \
+C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\ant-build\res\drawable-port-ldpi\screen.png \
+C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\ant-build\res\drawable-port-mdpi\screen.png \
+C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\ant-build\res\drawable-port-xhdpi\screen.png \
+C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\assets\www \
+C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\assets\_where-is-www.txt \
+C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\assets\www\cordova.js \
+C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\assets\www\cordova_plugins.js \
+C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\assets\www\css \
+C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\assets\www\icon.png \
+C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\assets\www\img \
+C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\assets\www\index.html \
+C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\assets\www\js \
+C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\assets\www\phonegap.js \
+C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\assets\www\res \
+C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\assets\www\spec \
+C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\assets\www\spec.html \
+C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\assets\www\css\examples.css \
+C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\assets\www\css\index.css \
+C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\assets\www\img\logo.png \
+C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\assets\www\js\components \
+C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\assets\www\js\index.js \
+C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\assets\www\js\oms.min.js \
+C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\assets\www\js\rollups \
+C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\assets\www\js\components\aes-min.js \
+C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\assets\www\js\components\aes.js \
+C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\assets\www\js\components\cipher-core-min.js \
+C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\assets\www\js\components\cipher-core.js \
+C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\assets\www\js\components\core-min.js \
+C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\assets\www\js\components\core.js \
+C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\assets\www\js\components\enc-base64-min.js \
+C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\assets\www\js\components\enc-base64.js \
+C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\assets\www\js\components\enc-utf16-min.js \
+C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\assets\www\js\components\enc-utf16.js \
+C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\assets\www\js\components\evpkdf-min.js \
+C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\assets\www\js\components\evpkdf.js \
+C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\assets\www\js\components\format-hex-min.js \
+C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\assets\www\js\components\format-hex.js \
+C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\assets\www\js\components\hmac-min.js \
+C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\assets\www\js\components\hmac.js \
+C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\assets\www\js\components\lib-typedarrays-min.js \
+C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\assets\www\js\components\lib-typedarrays.js \
+C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\assets\www\js\components\md5-min.js \
+C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\assets\www\js\components\md5.js \
+C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\assets\www\js\components\mode-cfb-min.js \
+C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\assets\www\js\components\mode-cfb.js \
+C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\assets\www\js\components\mode-ctr-gladman-min.js \
+C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\assets\www\js\components\mode-ctr-gladman.js \
+C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\assets\www\js\components\mode-ctr-min.js \
+C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\assets\www\js\components\mode-ctr.js \
+C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\assets\www\js\components\mode-ecb-min.js \
+C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\assets\www\js\components\mode-ecb.js \
+C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\assets\www\js\components\mode-ofb-min.js \
+C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\assets\www\js\components\mode-ofb.js \
+C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\assets\www\js\components\pad-ansix923-min.js \
+C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\assets\www\js\components\pad-ansix923.js \
+C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\assets\www\js\components\pad-iso10126-min.js \
+C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\assets\www\js\components\pad-iso10126.js \
+C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\assets\www\js\components\pad-iso97971-min.js \
+C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\assets\www\js\components\pad-iso97971.js \
+C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\assets\www\js\components\pad-nopadding-min.js \
+C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\assets\www\js\components\pad-nopadding.js \
+C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\assets\www\js\components\pad-zeropadding-min.js \
+C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\assets\www\js\components\pad-zeropadding.js \
+C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\assets\www\js\components\pbkdf2-min.js \
+C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\assets\www\js\components\pbkdf2.js \
+C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\assets\www\js\components\rabbit-legacy-min.js \
+C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\assets\www\js\components\rabbit-legacy.js \
+C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\assets\www\js\components\rabbit-min.js \
+C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\assets\www\js\components\rabbit.js \
+C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\assets\www\js\components\rc4-min.js \
+C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\assets\www\js\components\rc4.js \
+C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\assets\www\js\components\ripemd160-min.js \
+C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\assets\www\js\components\ripemd160.js \
+C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\assets\www\js\components\sha1-min.js \
+C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\assets\www\js\components\sha1.js \
+C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\assets\www\js\components\sha224-min.js \
+C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\assets\www\js\components\sha224.js \
+C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\assets\www\js\components\sha256-min.js \
+C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\assets\www\js\components\sha256.js \
+C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\assets\www\js\components\sha3-min.js \
+C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\assets\www\js\components\sha3.js \
+C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\assets\www\js\components\sha384-min.js \
+C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\assets\www\js\components\sha384.js \
+C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\assets\www\js\components\sha512-min.js \
+C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\assets\www\js\components\sha512.js \
+C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\assets\www\js\components\tripledes-min.js \
+C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\assets\www\js\components\tripledes.js \
+C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\assets\www\js\components\x64-core-min.js \
+C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\assets\www\js\components\x64-core.js \
+C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\assets\www\js\rollups\aes.js \
+C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\assets\www\js\rollups\hmac-md5.js \
+C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\assets\www\js\rollups\hmac-ripemd160.js \
+C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\assets\www\js\rollups\hmac-sha1.js \
+C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\assets\www\js\rollups\hmac-sha224.js \
+C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\assets\www\js\rollups\hmac-sha256.js \
+C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\assets\www\js\rollups\hmac-sha3.js \
+C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\assets\www\js\rollups\hmac-sha384.js \
+C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\assets\www\js\rollups\hmac-sha512.js \
+C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\assets\www\js\rollups\md5.js \
+C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\assets\www\js\rollups\pbkdf2.js \
+C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\assets\www\js\rollups\rabbit-legacy.js \
+C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\assets\www\js\rollups\rabbit.js \
+C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\assets\www\js\rollups\rc4.js \
+C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\assets\www\js\rollups\ripemd160.js \
+C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\assets\www\js\rollups\sha1.js \
+C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\assets\www\js\rollups\sha224.js \
+C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\assets\www\js\rollups\sha256.js \
+C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\assets\www\js\rollups\sha3.js \
+C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\assets\www\js\rollups\sha384.js \
+C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\assets\www\js\rollups\sha512.js \
+C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\assets\www\js\rollups\tripledes.js \
+C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\assets\www\res\icon \
+C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\assets\www\res\screen \
+C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\assets\www\res\icon\android \
+C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\assets\www\res\icon\bada \
+C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\assets\www\res\icon\bada-wac \
+C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\assets\www\res\icon\blackberry \
+C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\assets\www\res\icon\ios \
+C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\assets\www\res\icon\tizen \
+C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\assets\www\res\icon\webos \
+C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\assets\www\res\icon\windows-phone \
+C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\assets\www\res\icon\android\icon-144-xxhdpi.png \
+C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\assets\www\res\icon\android\icon-192-xxxhdpi.png \
+C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\assets\www\res\icon\android\icon-36-ldpi.png \
+C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\assets\www\res\icon\android\icon-48-mdpi.png \
+C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\assets\www\res\icon\android\icon-72-hdpi.png \
+C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\assets\www\res\icon\android\icon-96-xhdpi.png \
+C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\assets\www\res\icon\bada\icon-128.png \
+C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\assets\www\res\icon\bada-wac\icon-48-type5.png \
+C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\assets\www\res\icon\bada-wac\icon-50-type3.png \
+C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\assets\www\res\icon\bada-wac\icon-80-type4.png \
+C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\assets\www\res\icon\blackberry\icon-80.png \
+C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\assets\www\res\icon\ios\icon-57-2x.png \
+C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\assets\www\res\icon\ios\icon-57.png \
+C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\assets\www\res\icon\ios\icon-72-2x.png \
+C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\assets\www\res\icon\ios\icon-72.png \
+C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\assets\www\res\icon\tizen\icon-128.png \
+C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\assets\www\res\icon\webos\icon-64.png \
+C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\assets\www\res\icon\windows-phone\icon-173-tile.png \
+C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\assets\www\res\icon\windows-phone\icon-48.png \
+C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\assets\www\res\icon\windows-phone\icon-62-tile.png \
+C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\assets\www\res\screen\android \
+C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\assets\www\res\screen\bada \
+C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\assets\www\res\screen\bada-wac \
+C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\assets\www\res\screen\blackberry \
+C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\assets\www\res\screen\ios \
+C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\assets\www\res\screen\tizen \
+C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\assets\www\res\screen\webos \
+C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\assets\www\res\screen\windows-phone \
+C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\assets\www\res\screen\android\screen-hdpi-landscape.png \
+C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\assets\www\res\screen\android\screen-hdpi-portrait.png \
+C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\assets\www\res\screen\android\screen-ldpi-landscape.png \
+C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\assets\www\res\screen\android\screen-ldpi-portrait.png \
+C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\assets\www\res\screen\android\screen-mdpi-landscape.png \
+C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\assets\www\res\screen\android\screen-mdpi-portrait.png \
+C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\assets\www\res\screen\android\screen-xhdpi-landscape.png \
+C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\assets\www\res\screen\android\screen-xhdpi-portrait.png \
+C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\assets\www\res\screen\bada\screen-portrait.png \
+C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\assets\www\res\screen\bada-wac\screen-type3.png \
+C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\assets\www\res\screen\bada-wac\screen-type4.png \
+C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\assets\www\res\screen\bada-wac\screen-type5.png \
+C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\assets\www\res\screen\blackberry\screen-225.png \
+C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\assets\www\res\screen\ios\screen-ipad-landscape-2x.png \
+C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\assets\www\res\screen\ios\screen-ipad-landscape.png \
+C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\assets\www\res\screen\ios\screen-ipad-portrait-2x.png \
+C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\assets\www\res\screen\ios\screen-ipad-portrait.png \
+C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\assets\www\res\screen\ios\screen-iphone-landscape-2x.png \
+C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\assets\www\res\screen\ios\screen-iphone-landscape.png \
+C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\assets\www\res\screen\ios\screen-iphone-portrait-2x.png \
+C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\assets\www\res\screen\ios\screen-iphone-portrait-568h-2x.png \
+C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\assets\www\res\screen\ios\screen-iphone-portrait.png \
+C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\assets\www\res\screen\tizen\README.md \
+C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\assets\www\res\screen\webos\screen-64.png \
+C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\assets\www\res\screen\windows-phone\screen-portrait.jpg \
+C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\assets\www\spec\helper.js \
+C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\assets\www\spec\index.js \
+C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\assets\www\spec\lib \
+C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\assets\www\spec\lib\jasmine-1.2.0 \
+C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\assets\www\spec\lib\jasmine-1.2.0\jasmine-html.js \
+C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\assets\www\spec\lib\jasmine-1.2.0\jasmine.css \
+C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\assets\www\spec\lib\jasmine-1.2.0\jasmine.js \
+C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\assets\www\spec\lib\jasmine-1.2.0\MIT.LICENSE \
+C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\ant-build\AndroidManifest.xml \

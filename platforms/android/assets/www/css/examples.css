@@ -2,6 +2,13 @@ body{
   font-family: 'Droid Sans', 'Helvetica', Arial, sans-serif;
   margin:5px;
 }
+#mapdiv {
+	margin: 0;
+	padding: 0;
+	width: 500px;
+	height: 500px;
+}
+
 #map{
   display: block;
   width: 50%;
