@@ -31,8 +31,10 @@ C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidenc
 C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\assets\www\icon.png \
 C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\assets\www\img \
 C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\assets\www\index.html \
+C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\assets\www\index__.html \
 C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\assets\www\js \
 C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\assets\www\phonegap.js \
+C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\assets\www\plugins \
 C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\assets\www\res \
 C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\assets\www\spec \
 C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\assets\www\spec.html \
@@ -131,6 +133,12 @@ C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidenc
 C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\assets\www\js\rollups\sha384.js \
 C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\assets\www\js\rollups\sha512.js \
 C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\assets\www\js\rollups\tripledes.js \
+C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\assets\www\plugins\org.apache.cordova.camera \
+C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\assets\www\plugins\org.apache.cordova.camera\www \
+C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\assets\www\plugins\org.apache.cordova.camera\www\Camera.js \
+C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\assets\www\plugins\org.apache.cordova.camera\www\CameraConstants.js \
+C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\assets\www\plugins\org.apache.cordova.camera\www\CameraPopoverHandle.js \
+C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\assets\www\plugins\org.apache.cordova.camera\www\CameraPopoverOptions.js \
 C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\assets\www\res\icon \
 C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\assets\www\res\screen \
 C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\assets\www\res\icon\android \

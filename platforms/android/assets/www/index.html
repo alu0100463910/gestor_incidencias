@@ -14,7 +14,7 @@
   <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
   <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
   
-  <!-- <script type="text/javascript" src="cordova.js"></script> -->
+  <script type="text/javascript" src="cordova.js"></script> 
   <script src="./js/rollups/tripledes.js"></script>     <!-- Encriptacion-->
   <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=true"></script>
  <!--  <script src="./js/oms.min.js"></script>   <!-- Para expandir marcadores muy cercanos-->
@@ -39,15 +39,17 @@
 				<button type="submit" class="ui-btn ui-shadow ui-corner-all ui-btn-icon-left ui-icon-navigation" id="botonLogin">Login</button>
 		</form>
 				<button class="ui-btn ui-shadow ui-corner-all ui-btn-icon-left ui-icon-user" id="botonregistro" onclick="iraRegistro()">Registrate</button>
+
+			<!--	<button class="ui-btn ui-shadow ui-corner-all ui-btn-icon-left ui-icon-user">user</button>
+			
+
+				<!-- <p id="cookieinfo">Info cookies:</p> -->
 				<button onclick="capturePhotoWithData();">Capture Photo With Image Data</button> <br>
 				<button onclick="capturePhotoWithFile();">Capture Photo With Image File URI</button> <br>
 				<button onclick="getPhoto(pictureSource.PHOTOLIBRARY);">From Photo Library</button><br>
 				<button onclick="getPhoto(pictureSource.SAVEDPHOTOALBUM);">From Photo Album</button><br>
 				<img style="display:none;width:60px;height:60px;" id="smallImage" src="" />
 				<img style="display:none;" id="largeImage" src="" />
-			<!--	<button class="ui-btn ui-shadow ui-corner-all ui-btn-icon-left ui-icon-user">user</button>
-
-				<!-- <p id="cookieinfo">Info cookies:</p> -->
     		
 	</div>
 	 
@@ -99,6 +101,9 @@
 
 	
 	$(window).load(function() {
+	//camara?
+		pictureSource=navigator.camera.PictureSourceType;
+        destinationType=navigator.camera.DestinationType;
 	
 		if (typeof(Storage) != "undefined") {
 			var els = new EncryptedLocalStorage('secret');
@@ -762,6 +767,10 @@
 
 
 </script>
+
+
+
+
 
 </body>
 </html>
