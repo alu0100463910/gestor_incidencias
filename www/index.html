@@ -1,0 +1,664 @@
+<!DOCTYPE html>
+
+<html>
+
+
+<head>
+ <!-- <meta charset="UTF-8">  -->
+ <!-- <meta http-equiv="content-type" content="text/html;charset=iso-8859-1" /> -->
+  <title>Validación de usuarios</title>
+  <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+<!--  <link rel="stylesheet" href="http://code.jquery.com/mobile/1.3.1/jquery.mobile-1.3.1.min.css" />
+  <script src="http://code.jquery.com/mobile/1.3.1/jquery.mobile-1.3.1.min.js"></script>   -->
+  
+  <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+  <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+  
+  <!-- <script type="text/javascript" src="cordova.js"></script> -->
+  <script src="./js/rollups/tripledes.js"></script>     <!-- Encriptacion-->
+  <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=true"></script>
+ <!--  <script src="./js/oms.min.js"></script>   <!-- Para expandir marcadores muy cercanos-->
+  <link rel="stylesheet" type="text/css" href="./css/examples.css" />
+  
+  <style>
+	#mapdiv {
+		margin: 0;
+		padding: 0;
+		width: 500px;
+		height: 500px;
+	}
+	</style>
+  
+</head>
+ <body> 
+ 
+<div data-role="page" id="inicio">
+ 
+	<div data-role="header">
+		<h1>Autenticación de Usuario</h1>
+	</div>
+    
+	<div data-role="content">	
+		<form id="formulario" >
+      			<label> Usuario </label>
+      			<input type="text" id="nombredeusuario" name="nombredeusuario" maxlength="10" required>
+      			<label> Password </label>
+     			<input type="password" id="clave" name="clave" maxlength="10" required>
+      		<!--	<input type="submit" value="Login" id="botonLogin">  -->
+				<button type="submit" class="ui-btn ui-shadow ui-corner-all ui-btn-icon-left ui-icon-navigation" id="botonLogin">Login</button>
+		</form>
+				<button class="ui-btn ui-shadow ui-corner-all ui-btn-icon-left ui-icon-user" id="botonregistro" onclick="iraRegistro()">Registrate</button>
+			<!--	<button class="ui-btn ui-shadow ui-corner-all ui-btn-icon-left ui-icon-user">user</button>
+
+				<!-- <p id="cookieinfo">Info cookies:</p> -->
+    		
+	</div>
+	 
+</div>
+    <!--Menu home -->
+<div data-role="page" id="home">
+ 
+	<div data-role="header">
+		<h1>Bienvenido</h1>
+	</div>
+ 
+	<div data-role="content">	
+		<h2> Bienvenido a la aplicación </h2>
+		<h3> ¿Que esta pasando?</h3>
+		
+    <form id="formulario2" >
+	<p id="demo">Envía un mensaje.</p>
+	<textarea name="mensaje" id="texto" cols="60" row="5" maxlength="120" /></textarea>
+	<button class="ui-btn ui-shadow ui-corner-all ui-btn-icon-left ui-icon-comment" type="button" id="botonEnviar" onclick="getLocation()">Enviar</button>
+	</form>
+	<button class="ui-btn ui-shadow ui-corner-all ui-btn-icon-left ui-icon-eye" id="verTodo" onclick="cargarMarcas()">Ver Mensajes</button>
+	<div id = 'mapdiv'></div>
+	<button class="ui-btn ui-shadow ui-corner-all ui-btn-icon-left ui-icon-home" onclick="inicio()" id="bInicio">Inicio</button>
+	</div>
+</div>
+
+<!--Registro -->
+<div data-role="page" id="registro">
+
+	<div data-role="header"><h1>Registro</h1></div>
+	<div data-role="content">	
+<!--	< div class="main">   -->
+	 <!--		<form class="form" method="post" action="#registro">   -->
+			<h2>Regístrate.</h2>
+			<label>Nombre :</label>
+			<input type="text" name="dname" id="name" maxlength="10">
+		<!--	<label>Email :</label>
+			<input type="text" name="demail" id="email"> -->
+			<label>Password :</label>
+			<input type="password" name="password" id="password" maxlength="10">
+			<button class="ui-btn ui-shadow ui-corner-all ui-btn-icon-left ui-icon-plus" id="register">Registrar</button>  
+	<!--	</form> -->
+		<br><button class="ui-btn ui-shadow ui-corner-all ui-btn-icon-left ui-icon-home" onclick="inicio()" id="botonInicio">Inicio</button>
+	</div>
+</div>
+<!--Registro -->
+
+<script>
+
+	
+	$(window).load(function() {
+	
+		if (typeof(Storage) != "undefined") {
+			var els = new EncryptedLocalStorage('secret');
+			
+			//$('#cookieinfo').innerHTML = els.get('id');
+			//$('#nombredeusuario').val(localStorage.getItem("usuario_"));
+			//$('#clave').val(localStorage.getItem("p"));
+			$('#nombredeusuario').val(els.get('usuario_'));
+			$('#clave').val(els.get('p'));
+			
+		} else {
+			//$('#cookieinfo').innerHTML = "Este navegador no soporta Web Storage...";
+			//Este navegador no soporta Web Storage..
+		}
+
+	/*    Usando cookies
+		  var str = $.cookie("id");
+		  if ($.cookie("id")== undefined) {
+			$('#cookieinfo').val("No hay cookies almacenadas.");
+		  }else{
+			$('#nombredeusuario').val($.cookie("nombredeusuario"));
+			$('#clave').val($.cookie("p"));
+		  }
+		  */
+		  ///$('#nombredeusuario').val(respuestaServer.p);
+		//		$('#clave').val(respuestaServer.p);  
+	});
+
+	
+	var  lati=28.47,longi=-16.29;
+	//tipos de iconos(marcas)
+	var tipo_icono = {
+      azul: {
+        icon: 'http://labs.google.com/ridefinder/images/mm_20_blue.png'
+      },
+      rojo: {
+        icon: 'http://labs.google.com/ridefinder/images/mm_20_red.png'
+      },
+	  naranja: {
+        icon: 'http://maps.gstatic.com/mapfiles/ridefinder-images/mm_20_orange.png'
+      },
+	  verde: {
+        icon: 'http://maps.gstatic.com/mapfiles/ridefinder-images/mm_20_green.png'
+      }
+    };
+	
+	function cargarMarcas() {
+      var map = new google.maps.Map(document.getElementById("mapdiv"), {
+        center: new google.maps.LatLng(lati, longi),
+        zoom: 11,
+        mapTypeId: 'roadmap'
+      });
+
+      var infoWindow = new google.maps.InfoWindow;
+	  
+	  
+	  
+	
+	  downloadUrl("http://temp.ajojar.com/cargamarcas.php", function(data) {
+	  var xml = data.responseXML;
+	  var markers = xml.documentElement.getElementsByTagName("marker");
+	  for (var i = 0; i < markers.length; i++) {
+		var name = markers[i].getAttribute("name");
+		var address = markers[i].getAttribute("address");
+		var type = markers[i].getAttribute("type");   //fecha
+		var text = markers[i].getAttribute("texto");  //texto
+		var point = new google.maps.LatLng(
+			parseFloat(markers[i].getAttribute("lat")),
+			parseFloat(markers[i].getAttribute("lng")));
+		var html = "<table class=bordered><b><thead><tr><th>Num</th><th>"+text+"</th><th>"+type+"</th></tr></thead><tr><td>1</td><td><input type='text' name='pName' class='save-name' placeholder='Escribe algo..' maxlength='40' /></td><td><button name='save-marker' class='save-marker'>Enviar</button></td></tr></table>";
+
+	 	//
+		var d = new Date(type);
+		var a = new Date()
+		var now = a.getTime();
+		var diff= now-d;
+		
+		var minutes = 1000 * 60;
+		var hours = minutes * 60;
+		var days = hours * 24;
+		var years = days * 365;
+		
+		var y = Math.round(diff / hours);
+		
+		//alert(d+"\n"+now+"\n Diferencia:"+y+"horas.ROJO");
+		
+		
+		var icon = tipo_icono['azul'] || {};
+		
+		switch (true) {
+		case y >= 0 && y < 15:
+			//alert(d+"\n"+now+"\n Diferencia:"+y+"horas.ROJO");
+			icon = tipo_icono['rojo'] || {};
+			break;
+		case y > 0 && y < 100:
+			//alert(d+"\n"+now+"\n Diferencia:"+y+"horas.VERDE");
+			icon = tipo_icono['naranja'] || {};
+			break;
+		case y > 99:
+			//alert(d+"\n"+now+"\n Diferencia:"+y+"horas.AZUL");
+			icon = tipo_icono['azul'] || {};
+			break;
+		default:
+			alert(d+"\n"+now.toISOString()+"\n Diferencia:"+y+"horas.");
+	}
+		
+		
+		
+		
+		
+		
+		
+	/*
+		var icon = customIcons['bar'] || {};
+		var marker = new google.maps.Marker({
+		  map: map,
+		  position: point,
+		  title : name,
+		  animation: google.maps.Animation.DROP, 
+		  icon: icon.icon
+         });
+         // bindInfoWindow(marker, map, infoWindow,html);
+		  */
+		//function crear marca(MapPos, MapTitle, MapDesc,  InfoOpenDefault,  Removable, iconPath)  
+		 // crear_marca(map,point, name, html, false, true, "http://labs.google.com/ridefinder/images/mm_20_blue.png");
+		 crear_marca(map,point, name, html, false, true, icon);
+	
+        }
+      });
+    }
+	
+	
+	
+	//############### Funcion crear marca ##############
+	function crear_marca(map, MapPos, MapTitle, MapDesc,  InfoOpenDefault, Removable, icon)
+	{                 
+		//new marker
+		//alert(MapTitle);
+		var marker = new google.maps.Marker({
+			position: MapPos,
+			map: map,
+			animation: google.maps.Animation.DROP,
+			title: MapTitle,
+			icon: icon.icon
+		});
+		
+		//Contenido Marca enviada
+		var contentString = $('<div class="marker-info-win">'+
+		'<div class="marker-inner-win"><span class="info-content">'+
+		MapDesc+ 
+		'</span><button name="remove-marker" class="remove-marker" title="Remove Marker">Ver Mensajes</button>'+
+		'</div></div>');    
+
+		//Create an infoWindow
+		var infowindow = new google.maps.InfoWindow();
+		//set the content of infoWindow
+		infowindow.setContent(contentString[0]);
+		
+		//var oms = new OverlappingMarkerSpiderfier(map,{markersWontMove: true, markersWontHide: true});
+		
+		
+		/*
+		  var usualColor = 'eebb22';
+		  var spiderfiedColor = 'ffee22';
+		  var iconWithColor = function(color) {
+			return 'http://chart.googleapis.com/chart?chst=d_map_xpin_letter&chld=pin|+|' +
+			  color + '|000000|ffff00';
+		  }
+		  var shadow = new map.MarkerImage(
+			'https://www.google.com/intl/en_ALL/mapfiles/shadow50.png',
+			new map.Size(37, 34),  // size   - for sprite clipping
+			new map.Point(0, 0),   // origin - ditto
+			new map.Point(10, 34)  // anchor - where to meet map location
+		  );
+      
+		
+		
+		oms.addListener('spiderfy', function(markers) {
+			for(var i = 0; i < markers.length; i ++) {
+			  markers[i].setIcon(iconWithColor(spiderfiedColor));
+			  markers[i].setShadow(null);
+			} 
+			iw.close();
+		});
+		oms.addListener('unspiderfy', function(markers) {
+			for(var i = 0; i < markers.length; i ++) {
+			  markers[i].setIcon(iconWithColor(usualColor));
+			//  markers[i].setShadow(shadow);
+			}
+		});
+		
+		*/
+		
+
+		//Buscar boton ver mensajes en infoWindow
+		var removeBtn   = contentString.find('button.remove-marker')[0];
+
+	   //Buscar boton enviar infoWindow
+		var saveBtn     = contentString.find('button.save-marker')[0];
+
+		//Funcion Cargar mensajes 
+		google.maps.event.addDomListener(removeBtn, "click", function(event) {
+				var url ="http://temp.ajojar.com/cargatabla1.php?jsoncallback=?";
+				var posting = $.post( url, {id_tema:MapTitle});
+		
+				  // probando post
+				posting.done(function( data ) {
+					data=JSON.parse(data);
+					infowindow.setContent(data.mensaje);
+				});	
+		});
+		
+		if(typeof saveBtn !== 'undefined') //continue only when save button is present
+		{
+			//Evento click para boton enviar
+			google.maps.event.addDomListener(saveBtn, "click", function(event) {
+				
+				var mName = contentString.find('input.save-name')[0].value; //Texto a enviar
+				if(mName =='')
+				{
+					alert("Escribe algo!");
+				}else{
+					var els = new EncryptedLocalStorage('secret');
+					var idu = els.get('id');
+					//alert("Hacer post de... IDT="+MapTitle+"ID User="+idu+ "  Mensaje="+mName);
+					////////#########ENVIO MENSAJE
+					var url = "http://temp.ajojar.com/mensaje.php?jsoncallback=?";
+					$.getJSON( url, { idt:MapTitle, oid:idu, texto:mName},function(respuestaServer) {
+						
+						if(respuestaServer.validacion == "ok"){ //Se comprueba que se ha insertado correctamente
+							alert(respuestaServer.mensaje);
+						}else{
+							alert(respuestaServer.mensaje);
+						}
+					});	
+				}
+				
+			});
+		}
+		
+		//Evento clik para cada marca    
+		google.maps.event.addListener(marker, 'click', function() {
+				infowindow.open(map,marker); 
+				marker.setIcon('https://www.google.com/mapfiles/marker_green.png');
+		});
+		  
+		if(InfoOpenDefault) //abrir ventana por defecto
+		{
+		  infowindow.open(map,marker);
+		}
+		
+	}
+	
+	//funcion sleep (no se usa) 
+	function sleep(milliseconds) {
+	  var start = new Date().getTime();
+	  for (var i = 0; i < 1e7; i++) {
+		if ((new Date().getTime() - start) > milliseconds){
+		  break;
+		}
+	  }
+	}
+	
+	
+	///Carga de marcas xml generado en php
+	function downloadUrl(url,callback) {
+	 var request = window.ActiveXObject ?
+		 new ActiveXObject('Microsoft.XMLHTTP') :
+		 new XMLHttpRequest;
+
+	 request.onreadystatechange = function() {
+	   if (request.readyState == 4) {
+		 request.onreadystatechange = doNothing;
+		 callback(request, request.status);
+	   }
+	 };
+
+	 request.open('GET', url, true);
+	 request.send(null);
+	}
+	
+	function doNothing() {}
+
+    //]]>
+	//fin carga de marcas
+
+
+	var x = document.getElementById("demo");
+    
+	function getLocation() {
+		if (navigator.geolocation) {
+			navigator.geolocation.getCurrentPosition(showPosition, showError);
+		} else {
+			x.innerHTML = "Geolocalizacion no soportada en este sistema.";
+		}
+	}
+
+	//envio mensaje geoposicionado
+	function showPosition(position) {
+		////	//Envio de mensaje
+		var texto_ = document.getElementById("texto").value;
+		var nombre = document.getElementById("nombredeusuario").value;
+		var els = new EncryptedLocalStorage('secret');
+		var idusuario = els.get('id');
+		var texto1="";
+		lati=position.coords.latitude;
+		longi=position.coords.longitude;
+		if(texto_.length < 5) {  
+			alert("Escribe algo no?");   
+		}else{	
+			x.innerHTML= "Enviado desde  Latitud: " + position.coords.latitude + " Longitud: " + position.coords.longitude;
+			
+			archivoValidacion = "http://temp.ajojar.com/datos.php?jsoncallback=?";
+			$.getJSON( archivoValidacion, { id:idusuario, texto:texto_, latitud:position.coords.latitude, longitud:position.coords.longitude},function(respuestaServer) {
+				
+				if(/^\d+$/.test(respuestaServer.validacion)){ //Se comprueba que se ha insertado correctamente
+					alert(respuestaServer.mensaje);
+					/////////////carga tabla de mensajes por IDT
+
+					var idt=respuestaServer.validacion;
+					var url ="http://temp.ajojar.com/cargatabla1.php?jsoncallback=?";
+					var posting = $.post( url, {id_tema:idt});
+					  // probando post
+					posting.done(function( data ) {
+						data=JSON.parse(data);
+						texto1=data.mensaje;
+					});	
+										
+					//carga de mapa y su posicion
+					var googlePos = new google.maps.LatLng(position.coords.latitude, position.coords.longitude);
+					var mapOptions = {
+						zoom : 12,
+						center : googlePos,
+						mapTypeId : google.maps.MapTypeId.ROADMAP
+					};
+					var mapObj = document.getElementById('mapdiv');
+					var googleMap = new google.maps.Map(mapObj, mapOptions);
+					
+					//Se crea una marca
+					var markerOpt = {
+						map : googleMap,
+						position : googlePos,
+						title : 'id288',
+						animation : google.maps.Animation.DROP
+					};
+					
+					var googleMarker = new google.maps.Marker(markerOpt);
+					
+					var infoWindow = new google.maps.InfoWindow();
+					google.maps.event.addListener(googleMarker, 'click', function () {
+						infoWindow.close();
+						infoWindow.setContent("<br>"+texto1+"<br>");
+						infoWindow.open(googleMap, googleMarker);
+						//Change the marker icon
+						googleMarker.setIcon('https://www.google.com/mapfiles/marker_green.png');
+					});
+
+				}else{
+					alert(respuestaServer.mensaje);
+				}
+			});	
+		}
+		
+		
+		/*                                                     <-Codigo para añadir informacion de la calle de la marca + tabla
+        var geocoder = new google.maps.Geocoder();
+        geocoder.geocode({
+            'latLng' : googlePos
+            }, function(results, status) {
+
+			/////////////
+                if (status == google.maps.GeocoderStatus.OK) {
+                if (results[1]) {
+				
+                    var popOpts = {
+                        content : results[1].formatted_address+'<br>'+nombre+'<br>',
+                        position : googlePos
+                    };
+                var popup = new google.maps.InfoWindow(popOpts);
+				
+				
+				
+                google.maps.event.addListener(googleMarker, 'click', function() {
+                popup.open(googleMap);
+            });
+                } else {
+                    alert('Sin resultado');
+                }
+                } else {
+                    alert('Geocoder failed due to: ' + status);
+                }
+            });
+			/*/
+	}
+//Control fallos de geolocalizacion
+	function showError(error) {
+		switch(error.code) {
+			case error.PERMISSION_DENIED:
+				x.innerHTML = "Acceso denegado para acceder a la Geolocalizacion."
+				break;
+			case error.POSITION_UNAVAILABLE:
+				x.innerHTML = "La informacion de ubicacion no esta disponible."
+				break;
+			case error.TIMEOUT:
+				x.innerHTML = "Tiempo de espera sobrepasado."
+				break;
+			case error.UNKNOWN_ERROR:
+				x.innerHTML = "Error desconocido."
+				break;
+		}
+	}
+	
+
+ //Login
+	$('#formulario').submit(function() { 
+		
+		// recolecta los valores que inserto el usuario
+		var datosUsuario = $("#nombredeusuario").val();
+		var datosPassword = $("#clave").val();
+		
+		archivoValidacion = "http://temp.ajojar.com/consulta1.php?jsoncallback=?";
+	 
+		$.getJSON( archivoValidacion, { usuario:datosUsuario ,password:datosPassword})
+		.done(function(respuestaServer) {
+			alert(respuestaServer.mensaje + "\nGenerado " + respuestaServer.hora + "\n" +respuestaServer.generador);
+			var els = new EncryptedLocalStorage('secret');
+			if(/^\d+$/.test(respuestaServer.validacion)){  //Comprueba si el string recibido ID es un numero regexp
+				/// si la validacion es correcta, muestra la pantalla "home"
+				//$('#clave').val(respuestaServer.validacion);  //guarda id en campo contraseña se usara luego una
+				//Guardando cookies 
+				/*
+				$('#clave').val(respuestaServer.validacion);
+				$.cookie('id', respuestaServer.validacion, { expires: 1, path: '/' });
+				$.cookie('nombredeusuario', respuestaServer.usuario, { expires: 1, path: '/' });  //Se establece una cookie con el id del usuario
+				$.cookie('p', respuestaServer.p, { expires: 1, path: '/' });
+				*/
+				///Usando localStore (sin cripto)
+				//localStorage.setItem('id', respuestaServer.validacion );
+				//localStorage.setItem('usuario_', respuestaServer.usuario );
+				//localStorage.setItem('p', respuestaServer.p );
+				//usando crypto
+						
+					els.set('id', respuestaServer.validacion);
+					els.set('usuario_', respuestaServer.usuario);
+					els.set('p', respuestaServer.p);
+
+				//	console.log('encrypted', window.localStorage.getItem('id'));
+				//	console.log('decrypted', els.get('id'));
+					//els.remove('key');
+					//console.log('Removed from localstorage');
+				$.mobile.changePage("#home");
+			 
+			}else{
+			/*
+				$.removeCookie('id');
+				$.removeCookie('nombredeusuario');
+				$.removeCookie('p');	
+			*/
+				//window.localStorage.removeItem('id');
+				//window.localStorage.removeItem('usuario_');
+				//window.localStorage.removeItem('p');
+				els.remove('id');
+				els.remove('usuario_');
+				els.remove('p');
+				console.log('Eliminado de Almacenamiento Local');
+			}
+		})
+		return false;	
+	});
+
+
+	function iraRegistro() {
+		$.mobile.changePage("#registro");
+	}
+
+
+	function inicio() {
+		//alert("registro");
+		$.mobile.changePage("#inicio");
+	}
+
+	//Acciones registro
+
+	$("#register").click(function() {
+		var name = $("#name").val();
+		//var email = $("#email").val();
+		var password = $("#password").val();
+		//var cpassword = $("#cpassword").val();
+		if (name == '' || password == '') {
+		alert("Completa todos los recuadros...!!!!!!");
+		} else {		
+		/////
+		  var url ="http://temp.ajojar.com/registro.php?jsoncallback=?";
+		  var posting = $.post( url, {name1: name, password1: password});
+		 
+		  // Put the results in a div
+		  posting.done(function( data ) {
+			data=JSON.parse(data);
+			alert(data.mensaje+"\n Hora:"+data.hora );
+		  });
+		}
+	});
+	
+	
+	///Clase para usar Crypto
+		var EncryptedLocalStorage = (function(global) {
+	 'use strict';
+	  
+	// Constructor
+	  var EncryptedLocalStorage = function(secret) {
+		if (!secret) {
+		  throw 'Missing secret!';
+		}
+		
+		this.secret = secret;
+	  },
+	  
+	  // Private methods
+	  encrypt = function(object, secret) {
+		var message = JSON.stringify(object);  
+		return CryptoJS.TripleDES.encrypt(message, secret);
+	  },
+
+	  decrypt = function(encrypted, secret) {
+		var decrypted = CryptoJS.TripleDES.decrypt(encrypted, secret);  
+		return JSON.parse(decrypted.toString(CryptoJS.enc.Utf8));
+	  };
+	  
+	  // Public API
+	  EncryptedLocalStorage.prototype = {
+		
+		get: function(key) {
+		  var encrypted = global.localStorage.getItem(key);      
+		  return encrypted && decrypt(encrypted, this.secret);
+		},
+		
+		set: function(key, object) {
+		  if (!object) {
+			this.remove(key);
+			return;
+		  }
+		  
+		  var encrypted = encrypt(object, this.secret);  
+		  global.localStorage.setItem(key, encrypted);  
+		},
+		
+		remove: function(key) {
+		  global.localStorage.removeItem(key);
+		}
+	  };
+
+  return EncryptedLocalStorage;
+  
+}(window));
+
+
+</script>
+
+</body>
+</html>
