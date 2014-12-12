@@ -20,6 +20,18 @@
  <!--  <script src="./js/oms.min.js"></script>   <!-- Para expandir marcadores muy cercanos-->
   <link rel="stylesheet" type="text/css" href="./css/examples.css" />
   
+  <script src="./js/jquery.fileupload.js"></script>
+  
+  
+  <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+	<!-- Generic page styles -->
+	<link rel="stylesheet" href="https://blueimp.github.io/jQuery-File-Upload/css/style.css">
+	<!-- CSS to style the file input field as button and adjust the Bootstrap progress bars -->
+	<link rel="stylesheet" href="https://blueimp.github.io/jQuery-File-Upload/css/jquery.fileupload.css">
+  
+  
+  
+  
 </head>
  <body> 
  
@@ -76,6 +88,21 @@
 	-->
 				<img  style="display:none;width:60px;height:60px;" id="smallImage" src="" />
 				<img  style="display:none;" id="largeImage" src="" />
+				<span class="btn btn-success fileinput-button">
+					<i class="glyphicon glyphicon-plus"></i>
+					<span>Select files...</span>
+					<!-- The file input field used as target for the file upload widget -->
+					<input id="fileupload" type="file" name="files[]" multiple="">
+				</span>
+				    <!-- Barra de progreso -->
+				<div id="progress" class="progress">
+					<div class="progress-bar progress-bar-success"></div>
+				</div>
+				<!-- Archivo subido -->
+				<div id="files" class="files"></div>
+				
+				
+				
 	
 	<div id = 'mapdiv'></div>
 	<button class="ui-btn ui-shadow ui-corner-all ui-btn-icon-left ui-icon-home" onclick="inicio()" id="bInicio">Inicio</button>
@@ -766,7 +793,33 @@
 
 
 //########
+///Parte ftp
+   'use strict';
+    // Change this to the location of your server-side upload handler:
+    var url = window.location.hostname === 'blueimp.github.io' ?
+                '//jquery-file-upload.appspot.com/' : 'server/php/';
+    $('#fileupload').fileupload({
+        url: url,
+        dataType: 'json',
+        done: function (e, data) {
+            $.each(data.result.files, function (index, file) {
+                $('<p/>').text(file.name).appendTo('#files');
+            });
+        },
+        progressall: function (e, data) {
+            var progress = parseInt(data.loaded / data.total * 100, 10);
+            $('#progress .progress-bar').css(
+                'width',
+                progress + '%'
+            );
+        }
+    }).prop('disabled', !$.support.fileInput)
+        .parent().addClass($.support.fileInput ? undefined : 'disabled');
 
+
+
+
+///
 
 
 

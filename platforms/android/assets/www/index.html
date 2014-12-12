@@ -63,7 +63,7 @@
     <form id="formulario2" >
 	<p id="demo">Envía un mensaje.</p>
 	<textarea name="mensaje" id="texto" cols="60" row="5" maxlength="120" /></textarea>
-	<div <button class="ui-btn ui-shadow ui-corner-all ui-btn-icon-left ui-icon-camera" onclick="capturePhotoWithData();"></button><button class="ui-btn ui-shadow ui-corner-all ui-btn-icon-left ui-icon-comment" type="button" id="botonEnviar" onclick="getLocation()">Enviar</button></div>
+	<div <button class="ui-btn ui-shadow ui-corner-all ui-btn-icon-left ui-icon-camera" onclick="capturePhotoWithFile();"></button><button class="ui-btn ui-shadow ui-corner-all ui-btn-icon-left ui-icon-comment" type="button" id="botonEnviar" onclick="getLocation()">Enviar</button></div>
 	</form>
 	<button class="ui-btn ui-shadow ui-corner-all ui-btn-icon-left ui-icon-eye" id="verTodo" onclick="cargarMarcas()">Ver Mensajes</button>
 	<!--
@@ -721,7 +721,7 @@
     //
     function onPhotoURISuccess(imageURI) {
       // Uncomment to view the image file URI 
-      // console.log(imageURI);
+       console.log(imageURI);
 
       // Get image handle
       //
