@@ -44,12 +44,7 @@
 			
 
 				<!-- <p id="cookieinfo">Info cookies:</p> -->
-				<button onclick="capturePhotoWithData();">Capture Photo With Image Data</button> <br>
-				<button onclick="capturePhotoWithFile();">Capture Photo With Image File URI</button> <br>
-				<button onclick="getPhoto(pictureSource.PHOTOLIBRARY);">From Photo Library</button><br>
-				<button onclick="getPhoto(pictureSource.SAVEDPHOTOALBUM);">From Photo Album</button><br>
-				<img style="display:none;width:60px;height:60px;" id="smallImage" src="" />
-				<img style="display:none;" id="largeImage" src="" />
+
     		
 	</div>
 	 
@@ -68,9 +63,20 @@
     <form id="formulario2" >
 	<p id="demo">Envía un mensaje.</p>
 	<textarea name="mensaje" id="texto" cols="60" row="5" maxlength="120" /></textarea>
-	<button class="ui-btn ui-shadow ui-corner-all ui-btn-icon-left ui-icon-comment" type="button" id="botonEnviar" onclick="getLocation()">Enviar</button>
+	<div <button class="ui-btn ui-shadow ui-corner-all ui-btn-icon-left ui-icon-camera" onclick="capturePhotoWithFile();"></button><button class="ui-btn ui-shadow ui-corner-all ui-btn-icon-left ui-icon-comment" type="button" id="botonEnviar" onclick="getLocation()">Enviar</button></div>
 	</form>
 	<button class="ui-btn ui-shadow ui-corner-all ui-btn-icon-left ui-icon-eye" id="verTodo" onclick="cargarMarcas()">Ver Mensajes</button>
+	<!--
+			    <button visibility=hidden onclick="capturePhotoWithData();" >Tomar una foto Image Data</button> <br>
+				<button visibility=hidden onclick="capturePhotoWithFile();">Tomar foto  File URI</button> <br>
+				<button visibility=hidden onclick="getPhoto(pictureSource.PHOTOLIBRARY);">Seleccionar foto desde librería</button><br>
+				<button visibility=hidden onclick="getPhoto(pictureSource.SAVEDPHOTOALBUM);">Seleccionar desde Album</button><br>
+				<img visibility=hidden style="display:none;width:60px;height:60px;" id="smallImage" src="" />
+				<img visibility=hidden style="display:none;" id="largeImage" src="" />
+	-->
+				<img  style="display:none;width:60px;height:60px;" id="smallImage" src="" />
+				<img  style="display:none;" id="largeImage" src="" />
+	
 	<div id = 'mapdiv'></div>
 	<button class="ui-btn ui-shadow ui-corner-all ui-btn-icon-left ui-icon-home" onclick="inicio()" id="bInicio">Inicio</button>
 	</div>
@@ -659,7 +665,7 @@
   
 	}(window));
 
-//////////#############caputura de foto
+//////////#############captura de foto
     var pictureSource;   // picture source
     var destinationType; // sets the format of returned value 
 
@@ -715,7 +721,7 @@
     //
     function onPhotoURISuccess(imageURI) {
       // Uncomment to view the image file URI 
-      // console.log(imageURI);
+       console.log(imageURI);
 
       // Get image handle
       //
@@ -754,7 +760,7 @@
     // Called if something bad happens.
     // 
     function onFail(message) {
-      alert('Failed because: ' + message);
+      alert('Error: ' + message);
     }
 
 
