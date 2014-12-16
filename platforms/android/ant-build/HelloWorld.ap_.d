@@ -28,6 +28,7 @@ C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidenc
 C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\assets\www\cordova.js \
 C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\assets\www\cordova_plugins.js \
 C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\assets\www\css \
+C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\assets\www\ftp.html \
 C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\assets\www\icon.png \
 C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\assets\www\img \
 C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\assets\www\index.html \
@@ -41,8 +42,13 @@ C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidenc
 C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\assets\www\css\examples.css \
 C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\assets\www\css\index.css \
 C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\assets\www\img\logo.png \
+C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\assets\www\js\bootstrap.min.js \
 C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\assets\www\js\components \
 C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\assets\www\js\index.js \
+C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\assets\www\js\jquery.fileupload.js \
+C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\assets\www\js\jquery.iframe-transport.js \
+C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\assets\www\js\jquery.min.js \
+C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\assets\www\js\jquery.ui.widget.js \
 C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\assets\www\js\oms.min.js \
 C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\assets\www\js\rollups \
 C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\assets\www\js\components\aes-min.js \

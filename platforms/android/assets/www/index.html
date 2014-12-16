@@ -20,6 +20,18 @@
  <!--  <script src="./js/oms.min.js"></script>   <!-- Para expandir marcadores muy cercanos-->
   <link rel="stylesheet" type="text/css" href="./css/examples.css" />
   
+  <script src="./js/jquery.fileupload.js"></script>    <!-- ftp jquery-->
+  
+  
+  <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+	<!-- Generic page styles -->
+	<link rel="stylesheet" href="https://blueimp.github.io/jQuery-File-Upload/css/style.css">
+	<!-- CSS to style the file input field as button and adjust the Bootstrap progress bars -->
+	<link rel="stylesheet" href="https://blueimp.github.io/jQuery-File-Upload/css/jquery.fileupload.css">
+  
+  
+  
+  
 </head>
  <body> 
  
@@ -60,11 +72,21 @@
 		<h2> Bienvenido a la aplicación </h2>
 		<h3> ¿Que esta pasando?</h3>
 		
-    <form id="formulario2" >
+ <!--   <form id="formulario2" >  -->
 	<p id="demo">Envía un mensaje.</p>
 	<textarea name="mensaje" id="texto" cols="60" row="5" maxlength="120" /></textarea>
-	<div <button class="ui-btn ui-shadow ui-corner-all ui-btn-icon-left ui-icon-camera" onclick="capturePhotoWithFile();"></button><button class="ui-btn ui-shadow ui-corner-all ui-btn-icon-left ui-icon-comment" type="button" id="botonEnviar" onclick="getLocation()">Enviar</button></div>
-	</form>
+	<div  <span class="btn btn-success fileinput-button">
+					<i class="glyphicon glyphicon-plus"></i>
+					<span>Select files...</span>
+					<!-- The file input field used as target for the file upload widget -->
+					<input id="fileupload" type="file" name="files[]" multiple="">
+				</span> 
+				<button class="ui-btn ui-shadow ui-corner-all ui-btn-icon-left ui-icon-camera" onclick="capturePhotoWithFile();"></button>
+				
+				</div>
+	
+	<div <button class="ui-btn ui-shadow ui-corner-all ui-btn-icon-left ui-icon-comment" type="button" id="botonEnviar" onclick="getLocation()">Enviar</button></div>
+ <!--	</form>  -->
 	<button class="ui-btn ui-shadow ui-corner-all ui-btn-icon-left ui-icon-eye" id="verTodo" onclick="cargarMarcas()">Ver Mensajes</button>
 	<!--
 			    <button visibility=hidden onclick="capturePhotoWithData();" >Tomar una foto Image Data</button> <br>
@@ -76,6 +98,16 @@
 	-->
 				<img  style="display:none;width:60px;height:60px;" id="smallImage" src="" />
 				<img  style="display:none;" id="largeImage" src="" />
+
+				    <!-- Barra de progreso -->
+				<div id="progress" class="progress">
+					<div class="progress-bar progress-bar-success"></div>
+				</div>
+				<!-- Archivo subido -->
+				<div id="files" class="files"></div>
+				
+				
+				
 	
 	<div id = 'mapdiv'></div>
 	<button class="ui-btn ui-shadow ui-corner-all ui-btn-icon-left ui-icon-home" onclick="inicio()" id="bInicio">Inicio</button>
@@ -766,7 +798,33 @@
 
 
 //########
+///Parte ftp
+'use strict';
+    // Change this to the location of your server-side upload handler:
+//$(function () {
+     var url ='http://temp.ajojar.com/server/php/'
+    $('#fileupload').fileupload({
+        url: url,
+        dataType: 'json',
+        done: function (e, data) {
+            $.each(data.result.files, function (index, file) {
+                $('<p/>').text(file.name).appendTo('#files');
+            });
+        },
+        progressall: function (e, data) {
+            var progress = parseInt(data.loaded / data.total * 100, 10);
+            $('#progress .progress-bar').css(
+                'width',
+                progress + '%'
+            );
+        }
+    }).prop('disabled', !$.support.fileInput)
+        .parent().addClass($.support.fileInput ? undefined : 'disabled');
 
+//});
+
+
+///
 
 
 
