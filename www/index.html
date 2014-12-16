@@ -74,16 +74,36 @@
 		
  <!--   <form id="formulario2" >  -->
 	<p id="demo">Envía un mensaje.</p>
-	<textarea name="mensaje" id="texto" cols="60" row="5" maxlength="120" /></textarea>
-	<div  <span class="btn btn-success fileinput-button">
-					<i class="glyphicon glyphicon-plus"></i>
-					<span>Select files...</span>
-					<!-- The file input field used as target for the file upload widget -->
-					<input id="fileupload" type="file" name="files[]" multiple="">
+	<table>
+		<tr>
+			<td>
+				<span class="btn btn-success fileinput-button">
+				<i class="glyphicon glyphicon-plus"></i>
+				<!-- The file input field used as target for the file upload widget -->
+				<input id="fileupload" type="file" name="files[]" multiple="">
 				</span> 
-				<button class="ui-btn ui-shadow ui-corner-all ui-btn-icon-left ui-icon-camera" onclick="capturePhotoWithFile();"></button>
-				
+			</td>        
+			<td>	  
+				<button class="ui-btn ui-shadow ui-corner-all ui-btn-icon-notext ui-icon-camera " onclick="capturePhotoWithFile();"></button>
+		    </td>
+			<td><textarea name="mensaje" id="texto" cols="60" row="5" maxlength="120" /></textarea></td>
+		</tr>        
+		<tr>
+			<td><!-- Archivo subido -->
+					<div id="files" class="files"><img  style="display:none;width:60px;height:60px;" id="smallImage" src="" /></div>
+			</td>
+			<td>  
+			</td>
+			<td><!-- Barra de progreso -->
+				<div id="progress" class="progress">
+					<div class="progress-bar progress-bar-success"></div>
 				</div>
+			</td>
+		</tr>
+	</table>
+
+		
+	
 	
 	<div <button class="ui-btn ui-shadow ui-corner-all ui-btn-icon-left ui-icon-comment" type="button" id="botonEnviar" onclick="getLocation()">Enviar</button></div>
  <!--	</form>  -->
@@ -96,18 +116,10 @@
 				<img visibility=hidden style="display:none;width:60px;height:60px;" id="smallImage" src="" />
 				<img visibility=hidden style="display:none;" id="largeImage" src="" />
 	-->
-				<img  style="display:none;width:60px;height:60px;" id="smallImage" src="" />
+				
 				<img  style="display:none;" id="largeImage" src="" />
 
-				    <!-- Barra de progreso -->
-				<div id="progress" class="progress">
-					<div class="progress-bar progress-bar-success"></div>
-				</div>
-				<!-- Archivo subido -->
-				<div id="files" class="files"></div>
-				
-				
-				
+
 	
 	<div id = 'mapdiv'></div>
 	<button class="ui-btn ui-shadow ui-corner-all ui-btn-icon-left ui-icon-home" onclick="inicio()" id="bInicio">Inicio</button>
@@ -140,8 +152,8 @@
 	
 	$(window).load(function() {
 	//camara?
-		pictureSource=navigator.camera.PictureSourceType;
-        destinationType=navigator.camera.DestinationType;
+		//pictureSource=navigator.camera.PictureSourceType;
+        //destinationType=navigator.camera.DestinationType;
 	
 		if (typeof(Storage) != "undefined") {
 			var els = new EncryptedLocalStorage('secret');
@@ -820,15 +832,6 @@
         }
     }).prop('disabled', !$.support.fileInput)
         .parent().addClass($.support.fileInput ? undefined : 'disabled');
-
-//});
-
-
-///
-
-
-
-
 
 </script>
 

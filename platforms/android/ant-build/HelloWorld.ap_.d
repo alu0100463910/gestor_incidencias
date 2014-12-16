@@ -28,7 +28,6 @@ C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidenc
 C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\assets\www\cordova.js \
 C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\assets\www\cordova_plugins.js \
 C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\assets\www\css \
-C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\assets\www\ftp.html \
 C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\assets\www\icon.png \
 C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\assets\www\img \
 C:\Users\Fabius\Desktop\INTERFASES INTELIGENTES\Lenguaje natural\Gestor_Incidencias\platforms\android\assets\www\index.html \

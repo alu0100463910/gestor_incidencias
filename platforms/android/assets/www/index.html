@@ -74,16 +74,33 @@
 		
  <!--   <form id="formulario2" >  -->
 	<p id="demo">Envía un mensaje.</p>
-	<textarea name="mensaje" id="texto" cols="60" row="5" maxlength="120" /></textarea>
-	<div  <span class="btn btn-success fileinput-button">
-					<i class="glyphicon glyphicon-plus"></i>
-					<span>Select files...</span>
-					<!-- The file input field used as target for the file upload widget -->
-					<input id="fileupload" type="file" name="files[]" multiple="">
+	<table>
+		<tr>
+			<td><button class="ui-btn ui-shadow ui-corner-all ui-btn-icon-left ui-icon-camera" onclick="capturePhotoWithFile();"></button></td>        
+			<td>	  
+				<span class="btn btn-success fileinput-button">
+				<i class="glyphicon glyphicon-plus"></i>
+				<span></span>
+				<!-- The file input field used as target for the file upload widget -->
+				<input id="fileupload" type="file" name="files[]" multiple="">
 				</span> 
-				<button class="ui-btn ui-shadow ui-corner-all ui-btn-icon-left ui-icon-camera" onclick="capturePhotoWithFile();"></button>
-				
+		    </td>
+			<td><textarea name="mensaje" id="texto" cols="60" row="5" maxlength="120" /></textarea></td>
+		</tr>        
+		<tr>
+			<td><!-- Barra de progreso -->
+				<div id="progress" class="progress">
+					<div class="progress-bar progress-bar-success"></div>
 				</div>
+			</td>
+			<td>   <!-- Archivo subido -->
+				<div id="files" class="files"></div>
+			</td>
+		</tr>
+	</table>
+
+		
+	
 	
 	<div <button class="ui-btn ui-shadow ui-corner-all ui-btn-icon-left ui-icon-comment" type="button" id="botonEnviar" onclick="getLocation()">Enviar</button></div>
  <!--	</form>  -->
@@ -99,15 +116,7 @@
 				<img  style="display:none;width:60px;height:60px;" id="smallImage" src="" />
 				<img  style="display:none;" id="largeImage" src="" />
 
-				    <!-- Barra de progreso -->
-				<div id="progress" class="progress">
-					<div class="progress-bar progress-bar-success"></div>
-				</div>
-				<!-- Archivo subido -->
-				<div id="files" class="files"></div>
-				
-				
-				
+
 	
 	<div id = 'mapdiv'></div>
 	<button class="ui-btn ui-shadow ui-corner-all ui-btn-icon-left ui-icon-home" onclick="inicio()" id="bInicio">Inicio</button>
