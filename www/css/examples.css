@@ -3,10 +3,15 @@ body{
   margin:5px;
 }
 #mapdiv {
+	display: none;
 	margin: 0;
 	padding: 0;
 	width: 500px;
 	height: 500px;
+}
+
+#progreso {
+	display: none;
 }
 
 #map{
