@@ -83,15 +83,18 @@
 		<tr>
 			<td><!-- Archivo subido -->
 					<div id="files" class="files"><img  style="display:none;width:60px;height:60px;" id="smallImage" src="" /></div>
-					<canvas id="myCanvas" width="60" height="60">
 			</td>
-			<td><!-- Barra de progreso -->
-				<div id="progress" class="progress">
-					<div class="progress-bar progress-bar-success"></div>
+			<td>
+			<!-- Barra de progreso -->
+				 <div id="progres2" class="progress">
+					<div class="progress-bar" role="progressbar" data-transitiongoal="100"></div>
 				</div>
 			</td>
 		</tr>
 	</table>
+	<div id="progress" class="progress">
+					<div class="progress-bar progress-bar-success"></div>
+				</div>
 	</div>
 
 	<div <button class="ui-btn ui-shadow ui-corner-all ui-btn-icon-left ui-icon-comment" type="button" id="botonEnviar" onclick="getLocation()">Enviar</button></div>
@@ -736,10 +739,31 @@
             options.chunkedMode = false;
             // Transfer picture to server
             var ft = new FileTransfer();
+			var x = document.getElementById("demo");
+			
+			ft.onprogress = function(progressEvent) {
+				if (progressEvent.lengthComputable) {
+					var perc = Math.floor(progressEvent.loaded / progressEvent.total * 100);
+					$('#progres2 .progress-bar').css(
+						'width',
+						perc + '%'
+					);
+					
+					x.innerHTML = perc + "% cargado...";
+				} else {
+					if(statusDom.innerHTML == "") {
+						x.innerHTML = "Cargando";
+					} else {
+						x.innerHTML += ".";
+					}
+				}
+			};
+			
+			
             ft.upload(imageURI, "http://temp.ajojar.com/server/php/subir.php", function(r) {
-                alert( "Foto: "+r.bytesSent+" bytes subidos.");            	
+                //alert( "Foto: "+r.bytesSent+" bytes subidos.");            	
             }, function(error) {
-                alert("Upload failed: Code = "+error.code);            	
+                //alert("Upload failed: Code = "+error.code);            	
             }, options);
 
     }
@@ -810,7 +834,7 @@
 	}
 	
 	
-	
+	var x = document.getElementById("demo");
     $('#fileupload').fileupload({
         url: 'http://temp.ajojar.com/server/php/',
         dataType: 'json',
@@ -820,12 +844,13 @@
             });
         },
         progressall: function (e, data) {
-			                                 //aparece?
+			
             var progress = parseInt(data.loaded / data.total * 100, 10);
             $('#progress .progress-bar').css(
                 'width',
                 progress + '%'
             );
+			x.innerHTML = perc + "% cargado...";
         }
     }).prop('disabled', !$.support.fileInput)
         .parent().addClass($.support.fileInput ? undefined : 'disabled');
