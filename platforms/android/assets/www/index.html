@@ -2,7 +2,6 @@
 
 <html>
 
-
 <head>
  <!-- <meta charset="UTF-8">  -->
  <!-- <meta http-equiv="content-type" content="text/html;charset=iso-8859-1" /> -->
@@ -21,6 +20,8 @@
   <link rel="stylesheet" type="text/css" href="./css/examples.css" />
   
   <script src="./js/jquery.fileupload.js"></script>    <!-- ftp jquery-->
+  <script src="./js/jquery.getimagedata.min.js"></script> 
+   <script src="./js/canvas-to-blob.min.js"></script> 
   
   
   <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
@@ -28,9 +29,7 @@
 	<link rel="stylesheet" href="https://blueimp.github.io/jQuery-File-Upload/css/style.css">
 	<!-- CSS to style the file input field as button and adjust the Bootstrap progress bars -->
 	<link rel="stylesheet" href="https://blueimp.github.io/jQuery-File-Upload/css/jquery.fileupload.css">
-  
-  
-  
+	
   
 </head>
  <body> 
@@ -51,15 +50,7 @@
 				<button type="submit" class="ui-btn ui-shadow ui-corner-all ui-btn-icon-left ui-icon-navigation" id="botonLogin">Login</button>
 		</form>
 				<button class="ui-btn ui-shadow ui-corner-all ui-btn-icon-left ui-icon-user" id="botonregistro" onclick="iraRegistro()">Registrate</button>
-
-			<!--	<button class="ui-btn ui-shadow ui-corner-all ui-btn-icon-left ui-icon-user">user</button>
-			
-
-				<!-- <p id="cookieinfo">Info cookies:</p> -->
-
-    		
 	</div>
-	 
 </div>
     <!--Menu home -->
 <div data-role="page" id="home">
@@ -71,8 +62,6 @@
 	<div data-role="content">	
 		<h2> Bienvenido a la aplicación </h2>
 		<h3> ¿Que esta pasando?</h3>
-		
- <!--   <form id="formulario2" >  -->
 	<p id="demo">Envía un mensaje.</p>
 	<table>
 		<tr>
@@ -80,19 +69,21 @@
 				<span class="btn btn-success fileinput-button">
 				<i class="glyphicon glyphicon-plus"></i>
 				<!-- The file input field used as target for the file upload widget -->
-				<input id="fileupload" type="file" name="files[]" multiple="">
+				<input id="fileupload" type="file" name="files[]" multiple="" onclick="muestra()">
 				</span> 
 			</td>        
 			<td>	  
 				<button class="ui-btn ui-shadow ui-corner-all ui-btn-icon-notext ui-icon-camera " onclick="capturePhotoWithFile();"></button>
 		    </td>
 			<td><textarea name="mensaje" id="texto" cols="60" row="5" maxlength="120" /></textarea></td>
-		</tr>        
+		</tr>  
+	</table>
+	<div id = 'progreso'>
+	<table>
 		<tr>
 			<td><!-- Archivo subido -->
 					<div id="files" class="files"><img  style="display:none;width:60px;height:60px;" id="smallImage" src="" /></div>
-			</td>
-			<td>  
+					<canvas id="myCanvas" width="60" height="60">
 			</td>
 			<td><!-- Barra de progreso -->
 				<div id="progress" class="progress">
@@ -101,12 +92,10 @@
 			</td>
 		</tr>
 	</table>
+	</div>
 
-		
-	
-	
 	<div <button class="ui-btn ui-shadow ui-corner-all ui-btn-icon-left ui-icon-comment" type="button" id="botonEnviar" onclick="getLocation()">Enviar</button></div>
- <!--	</form>  -->
+ 
 	<button class="ui-btn ui-shadow ui-corner-all ui-btn-icon-left ui-icon-eye" id="verTodo" onclick="cargarMarcas()">Ver Mensajes</button>
 	<!--
 			    <button visibility=hidden onclick="capturePhotoWithData();" >Tomar una foto Image Data</button> <br>
@@ -117,10 +106,7 @@
 				<img visibility=hidden style="display:none;" id="largeImage" src="" />
 	-->
 				
-				<img  style="display:none;" id="largeImage" src="" />
-
-
-	
+	<img  style="display:none;" id="largeImage" src="" />
 	<div id = 'mapdiv'></div>
 	<button class="ui-btn ui-shadow ui-corner-all ui-btn-icon-left ui-icon-home" onclick="inicio()" id="bInicio">Inicio</button>
 	</div>
@@ -151,9 +137,7 @@
 
 	
 	$(window).load(function() {
-	//camara?
-		//pictureSource=navigator.camera.PictureSourceType;
-        //destinationType=navigator.camera.DestinationType;
+			
 	
 		if (typeof(Storage) != "undefined") {
 			var els = new EncryptedLocalStorage('secret');
@@ -201,7 +185,9 @@
     };
 	
 	function cargarMarcas() {
-      var map = new google.maps.Map(document.getElementById("mapdiv"), {
+	  var mapa = document.getElementById("mapdiv");
+	  mapa.style.display = 'block';
+      var map = new google.maps.Map(mapa, {
         center: new google.maps.LatLng(lati, longi),
         zoom: 11,
         mapTypeId: 'roadmap'
@@ -209,9 +195,7 @@
 
       var infoWindow = new google.maps.InfoWindow;
 	  
-	  
-	  
-	
+
 	  downloadUrl("http://temp.ajojar.com/cargamarcas.php", function(data) {
 	  var xml = data.responseXML;
 	  var markers = xml.documentElement.getElementsByTagName("marker");
@@ -238,8 +222,6 @@
 		
 		var y = Math.round(diff / hours);
 		
-		//alert(d+"\n"+now+"\n Diferencia:"+y+"horas.ROJO");
-		
 		
 		var icon = tipo_icono['azul'] || {};
 		
@@ -260,11 +242,7 @@
 			alert(d+"\n"+now.toISOString()+"\n Diferencia:"+y+"horas.");
 	}
 		
-		
-		
-		
-		
-		
+
 		
 	/*
 		var icon = customIcons['bar'] || {};
@@ -437,7 +415,6 @@
 	
 	function doNothing() {}
 
-    //]]>
 	//fin carga de marcas
 
 
@@ -445,6 +422,8 @@
     
 	function getLocation() {
 		if (navigator.geolocation) {
+			var mapa = document.getElementById("mapdiv");
+			mapa.style.display = 'block';
 			navigator.geolocation.getCurrentPosition(showPosition, showError);
 		} else {
 			x.innerHTML = "Geolocalizacion no soportada en este sistema.";
@@ -710,6 +689,7 @@
 	}(window));
 
 //////////#############captura de foto
+// PhoneGap is ready
     var pictureSource;   // picture source
     var destinationType; // sets the format of returned value 
 
@@ -723,100 +703,116 @@
         pictureSource=navigator.camera.PictureSourceType;
         destinationType=navigator.camera.DestinationType;
     }
-
-    // Called when a photo is successfully retrieved
-    //
-    function onPhotoDataSuccess(imageData) {
+	 
+	function clearCache() {
+		navigator.camera.cleanup();
+	}
+	
+	function onPhotoFileSuccess(imageData) {
       // Get image handle
-      //
-      var smallImage = document.getElementById('smallImage');
-
-      // Unhide image elements
-      //
-      smallImage.style.display = 'block';
-
-      // Show the captured photo
-      // The inline CSS rules are used to resize the image
-      //
-      smallImage.src = "data:image/jpeg;base64," + imageData;
-    }
-    
-	// Called when a photo is successfully retrieved
-    //
-    function onPhotoFileSuccess(imageData) {
-      // Get image handle
-      console.log(JSON.stringify(imageData));
-      
+      console.log(JSON.stringify(imageData));  
    	  // Get image handle
-      //
       var smallImage = document.getElementById('smallImage');
-
       // Unhide image elements
-      //
       smallImage.style.display = 'block';
-
       // Show the captured photo
       // The inline CSS rules are used to resize the image
-      //
       smallImage.src = imageData;
+	  
+	  var img = document.getElementById('smallImage');
+        var imageURI = img.src;
+        if (!imageURI || (img.style.display == "none")) {
+            alert("Error obteniendo imagen de la camara.");
+            return;
+        }
+	  
+	  //////////////////upladqjuery
+
+			///Subida por ftp  en php
+		    var options = new FileUploadOptions();
+            options.fileKey="file";
+            options.fileName=imageURI.substr(imageURI.lastIndexOf('/')+1);
+            options.mimeType="image/jpeg";
+            options.chunkedMode = false;
+            // Transfer picture to server
+            var ft = new FileTransfer();
+            ft.upload(imageURI, "http://temp.ajojar.com/server/php/subir.php", function(r) {
+                alert( "Foto: "+r.bytesSent+" bytes subidos.");            	
+            }, function(error) {
+                alert("Upload failed: Code = "+error.code);            	
+            }, options);
+
     }
-
-    // Called when a photo is successfully retrieved
-    //
-    function onPhotoURISuccess(imageURI) {
-      // Uncomment to view the image file URI 
-       console.log(imageURI);
-
-      // Get image handle
-      //
-      var largeImage = document.getElementById('largeImage');
-
-      // Unhide image elements
-      //
-      largeImage.style.display = 'block';
-
-      // Show the captured photo
-      // The inline CSS rules are used to resize the image
-      //
-      largeImage.src = imageURI;
-    }
-
-    // A button will call this function
-    //
-    function capturePhotoWithData() {
-      // Take picture using device camera and retrieve image as base64-encoded string
-      navigator.camera.getPicture(onPhotoDataSuccess, onFail, { quality: 50 });
-    }
-
-    function capturePhotoWithFile() {
+	
+	
+	function capturePhotoWithFile() {
+		var p = document.getElementById("progreso");
+	    p.style.display = 'block';
         navigator.camera.getPicture(onPhotoFileSuccess, onFail, { quality: 50, destinationType: Camera.DestinationType.FILE_URI });
     }
-    
-    // A button will call this function
-    //
-    function getPhoto(source) {
-      // Retrieve image file location from specified source
-      navigator.camera.getPicture(onPhotoURISuccess, onFail, { quality: 50, 
-        destinationType: destinationType.FILE_URI,
-        sourceType: source });
+	
+	 
+	function onFail(message) {
+		alert('Failed because: ' + message);
+	}
+		
+	//probando 
+	function uploadFile(mediaFile) {
+		path = mediaFile.fullPath;
+		name = mediaFile.name;
+		
+		var options = new FileUploadOptions();
+		options.fileKey="file";
+		options.fileName=mediaFile.name;
+		options.mimeType="image/jpeg";
+		var params = new Object();
+		params.fullpath = path;
+		params.name = name;
+		options.params = params;
+		options.chunkedMode = false;
+		
+	/*  alert("jqueryupload");
+	           var canvas = document.createElement('canvas');
+				canvas.width = img.width;
+				canvas.height = img.height;
+                if (canvas.getContext && canvas.toBlob) {
+				alert("entra en blob")
+                    canvas.getContext('2d').drawImage(img, 0, 0, img.width, img.height);
+                    canvas.toBlob(function (blob) {
+                        $('#fileupload').fileupload('add', {files: [blob]});
+                    }, "image/jpeg");
+                }
+				
+			$('#fileupload').fileupload();	  
+*/
+	  		//uploadFile(fileURI);
+	}
+
+
+/*
+    function capturePhotoWithFile() {
+		var p = document.getElementById("progreso");
+	    p.style.display = 'block';
+        navigator.camera.getPicture(onPhotoFileSuccess, onFail, { quality: 50, destinationType: Camera.DestinationType.FILE_URI });
     }
-
-    // Called if something bad happens.
-    // 
-    function onFail(message) {
-      alert('Error: ' + message);
-    }
-
-
+    */
+ 
 
 //########
 ///Parte ftp
 'use strict';
     // Change this to the location of your server-side upload handler:
 //$(function () {
-     var url ='http://temp.ajojar.com/server/php/'
+    
+	function muestra(){
+		var d = document.getElementById("progreso");
+		d.style.display = 'block';
+	}
+	
+	
+	
     $('#fileupload').fileupload({
-        url: url,
+        url: 'http://temp.ajojar.com/server/php/',
         dataType: 'json',
         done: function (e, data) {
             $.each(data.result.files, function (index, file) {
@@ -824,6 +820,7 @@
             });
         },
         progressall: function (e, data) {
+			                                 //aparece?
             var progress = parseInt(data.loaded / data.total * 100, 10);
             $('#progress .progress-bar').css(
                 'width',
