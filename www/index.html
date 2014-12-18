@@ -20,8 +20,8 @@
   <link rel="stylesheet" type="text/css" href="./css/examples.css" />
   
   <script src="./js/jquery.fileupload.js"></script>    <!-- ftp jquery-->
-  <script src="./js/jquery.getimagedata.min.js"></script> 
-   <script src="./js/canvas-to-blob.min.js"></script> 
+  <!-- <script src="./js/jquery.getimagedata.min.js"></script>  -->
+   <!--  <script src="./js/canvas-to-blob.min.js"></script> -->
   
   
   <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
@@ -68,7 +68,7 @@
 			<td>
 				<span class="btn btn-success fileinput-button">
 				<i class="glyphicon glyphicon-plus"></i>
-				<!-- The file input field used as target for the file upload widget -->
+				<!-- Boton Sacar foto o elegir un archivo... web -->
 				<input id="fileupload" type="file" name="files[]" multiple="" onclick="muestra()">
 				</span> 
 			</td>        
@@ -78,36 +78,25 @@
 			<td><textarea name="mensaje" id="texto" cols="60" row="5" maxlength="120" /></textarea></td>
 		</tr>  
 	</table>
-	<div id = 'progreso'>
+	<div id = "progreso">
 	<table>
 		<tr>
-			<td><!-- Archivo subido -->
-					<div id="files" class="files"><img  style="display:none;width:60px;height:60px;" id="smallImage" src="" /></div>
-			</td>
-			<td>
-			<!-- Barra de progreso -->
-				 <	<div id="progress" class="progress">
-					<div class="progress-bar progress-bar-success"></div>
+			<td style="width:50%; display: inline-block"><!-- Archivos subido -->
+			<div id="files" class="files"></div>
+			</td>	
+			<td style="width:50%; display: inline-block"><!-- Barra de progreso -->
+				<div id="progress" class="progress" >
+						<div class="progress-bar progress-bar-success">0%</div>
 				</div>
 			</td>
 		</tr>
 	</table>
 
 	</div>
-
+	<img  style="display:none;width:60px;height:60px;" id="smallImage" src="" />
 	<div <button class="ui-btn ui-shadow ui-corner-all ui-btn-icon-left ui-icon-comment" type="button" id="botonEnviar" onclick="getLocation()">Enviar</button></div>
  
 	<button class="ui-btn ui-shadow ui-corner-all ui-btn-icon-left ui-icon-eye" id="verTodo" onclick="cargarMarcas()">Ver Mensajes</button>
-	<!--
-			    <button visibility=hidden onclick="capturePhotoWithData();" >Tomar una foto Image Data</button> <br>
-				<button visibility=hidden onclick="capturePhotoWithFile();">Tomar foto  File URI</button> <br>
-				<button visibility=hidden onclick="getPhoto(pictureSource.PHOTOLIBRARY);">Seleccionar foto desde librería</button><br>
-				<button visibility=hidden onclick="getPhoto(pictureSource.SAVEDPHOTOALBUM);">Seleccionar desde Album</button><br>
-				<img visibility=hidden style="display:none;width:60px;height:60px;" id="smallImage" src="" />
-				<img visibility=hidden style="display:none;" id="largeImage" src="" />
-	-->
-				
-	<img  style="display:none;" id="largeImage" src="" />
 	<div id = 'mapdiv'></div>
 	<button class="ui-btn ui-shadow ui-corner-all ui-btn-icon-left ui-icon-home" onclick="inicio()" id="bInicio">Inicio</button>
 	</div>
@@ -186,6 +175,9 @@
     };
 	
 	function cargarMarcas() {
+	  var p = document.getElementById("progreso");
+	    p.style.display = 'none';
+	
 	  var mapa = document.getElementById("mapdiv");
 	  mapa.style.display = 'block';
       var map = new google.maps.Map(mapa, {
@@ -269,8 +261,9 @@
 	//############### Funcion crear marca ##############
 	function crear_marca(map, MapPos, MapTitle, MapDesc,  InfoOpenDefault, Removable, icon)
 	{                 
-		//new marker
-		//alert(MapTitle);
+		var p = document.getElementById("progreso");
+	    p.style.display = 'none';
+		
 		var marker = new google.maps.Marker({
 			position: MapPos,
 			map: map,
@@ -611,7 +604,8 @@
 
 
 	function inicio() {
-		//alert("registro");
+		var p = document.getElementById("progreso");
+	    p.style.display = 'none';
 		$.mobile.changePage("#inicio");
 	}
 
@@ -737,20 +731,21 @@
             options.chunkedMode = false;
             // Transfer picture to server
             var ft = new FileTransfer();
-			var x = document.getElementById("demo");
+		//	var x = document.getElementById("demo");
 			
 			ft.onprogress = function(progressEvent) {
 				
 				if (progressEvent.lengthComputable) {
 					var perc = Math.floor(progressEvent.loaded / progressEvent.total * 100);
+					$('#progress .progress-bar').css('width', perc+'%');
+					$('#progress .progress-bar').html(perc+'%');
 					
-					
-					x.innerHTML = perc + "% cargado...";
+				//	x.innerHTML = perc + "% cargado...";
 				} else {
 					if(statusDom.innerHTML == "") {
-						x.innerHTML = "Cargando";
+						//x.innerHTML = "Cargando";
 					} else {
-						x.innerHTML += ".";
+						//x.innerHTML += ".";
 					}
 				}
 			};
@@ -842,11 +837,8 @@
         progressall: function (e, data) {
 			
             var progress = parseInt(data.loaded / data.total * 100, 10);
-            $('#progress .progress-bar').css(
-                'width',
-                progress + '%'
-            );
-			x.innerHTML = perc + "% cargado...";
+			$('#progress .progress-bar').css('width', progress+'%');
+		    $('#progress .progress-bar').html(progress+'%');
         }
     }).prop('disabled', !$.support.fileInput)
         .parent().addClass($.support.fileInput ? undefined : 'disabled');
