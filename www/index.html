@@ -389,6 +389,9 @@
 		var els = new EncryptedLocalStorage('secret');
 		var idusuario = els.get('id');
 		var texto1="";
+		var nombre_foto = document.getElementById('files').innerHTML;
+		nombre_foto =nombre_foto.replace(/<[^>]*>?/g, '');                ///Se elimina las etiketas de parrafo
+		//if (nombre_foto == ""){alert("No hay foto.")}else{alert(nombre_foto)};
 		lati=position.coords.latitude;
 		longi=position.coords.longitude;
 		if(texto_.length < 5) {  
@@ -397,7 +400,7 @@
 			x.innerHTML= "Enviado desde  Latitud: " + position.coords.latitude + " Longitud: " + position.coords.longitude;
 			
 			archivoValidacion = "http://temp.ajojar.com/datos.php?jsoncallback=?";
-			$.getJSON( archivoValidacion, { id:idusuario, texto:texto_, latitud:position.coords.latitude, longitud:position.coords.longitude},function(respuestaServer) {
+			$.getJSON( archivoValidacion, { id:idusuario, texto:texto_, latitud:position.coords.latitude, longitud:position.coords.longitude, foto:nombre_foto},function(respuestaServer) {
 				
 				if(/^\d+$/.test(respuestaServer.validacion)){ //Se comprueba que se ha insertado correctamente
 					alert(respuestaServer.mensaje);
@@ -681,6 +684,8 @@
             }, function(error) {
                 alert("Erro al subir fichero: Codigo = "+error.code);            	
             }, options);
+			$('<p/>').text(options.fileName).appendTo('#files');
+			
 
     }
 	
@@ -746,6 +751,7 @@
         done: function (e, data) {
             $.each(data.result.files, function (index, file) {
                 $('<p/>').text(file.name).appendTo('#files');
+				
             });
         },
         progressall: function (e, data) {
