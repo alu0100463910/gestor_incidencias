@@ -52,11 +52,10 @@
 <div data-role="page" id="home">
  
 	<div data-role="header">
-		<h1>Bienvenido</h1>
+		<h1 id="usux">Bienvenido</h1>
 	</div>
  
 	<div data-role="content">	
-		<h2> Bienvenido a la aplicación </h2>
 		<h3> ¿Que esta pasando?</h3>
 	<p id="demo">Envía un mensaje.</p>
 	<table>
@@ -371,6 +370,7 @@
 
 
 	var x = document.getElementById("demo");
+	var b = document.getElementById("usux");
     
 	function getLocation() {
 		if (navigator.geolocation) {
@@ -518,6 +518,7 @@
 					els.set('id', respuestaServer.validacion);
 					els.set('usuario_', respuestaServer.usuario);
 					els.set('p', respuestaServer.p);
+					b.innerHTML="Bienvenido :"+respuestaServer.usuario;
 					$.mobile.changePage("#home");
 			 
 			}else{
